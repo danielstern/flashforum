@@ -7,7 +7,8 @@ var PostSchema = new Schema({
   name: String,
   info: String,
   active: Boolean,
-  thread: Object
+  thread: Object,
+  owner:Object
 });
 
 module.exports = mongoose.model('Post', PostSchema);

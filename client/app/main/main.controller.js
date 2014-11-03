@@ -26,6 +26,7 @@ angular.module('flashforumApp')
       if(!$scope.thread.name) {
         return;
       }
+      console.log("adding thread...");
       $http.post('/api/threads', { name: $scope.thread.name, owner:Auth.getCurrentUser() });
       $state.go('thread',{name:$scope.thread.name});
 
