@@ -21,6 +21,6 @@
     "angular-scenario": ">=1.2.*"
   },
   "resolutions": {
-    "angular": "1.2.0-rc.3"
+    "angular": ">= 1.0.8"
   }
 }
