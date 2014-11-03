@@ -32,26 +32,22 @@ header#banner.hero-unit
         input.form-control(type='text', placeholder='Name your thread, ser', ng-model='thread.name')
         span.input-group-btn
           button.btn.btn-primary(type='submit', ng-click='addThread()') New Thread
+
 .container
   .row
     .col-lg-12
-      h1.page-header Magic Cards > PTQ:
+      //- h1.page-header {{thread.name}}
       h2 {{thread.title}}
       p {{thread.description}}
-      div.media-element(ng-repeat='thing in awesomeThings')
+      div.media-element(ng-repeat='thread in threads')
         p
           div 
-            a(ui-sref="user({id:thing.owner.name})")
-              {{thing.owner.name}} > 
-            {{thing.name}}
+            a(ui-sref="thread({name:thread.name})")
+              {{thread.name}}
           button.close(type='button', ng-click='deleteThing(thing)') ×
 
-  form.thing-form
-    label Your Thoughts
-    p.input-group
-      input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
-      span.input-group-btn
-        button.btn.btn-primary(type='submit', ng-click='addThing()') Post
+
+
 
 footer.footer
   .container
