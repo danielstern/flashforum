@@ -3,37 +3,33 @@
 angular.module('flashforumApp')
   .controller('ThreadCtrl', function ($scope, $http, socket,Auth,$state,$stateParams) {
 
-    $http.get('api/threads/'+$stateParams.name).success(function(threads){
-      $scope.threads = threads;
-      socket.syncUpdates('thread', $scope.threads);
-    });
-
-    $scope.$watch("threads",function(threads){
-      if (!threads) return;
-      $scope.thread = threads[0];
-      // if (!$scope.thread || thread.ts > $scope.thread.ts) {
-        // $scope.thread = thread;
-        // $scope.lastUpdated = true;
-      // }
-    },true);
-
     $http.get('/api/posts/thread/'+$stateParams.name).success(function(posts) {
       $scope.posts = posts;
       socket.syncUpdates('post', $scope.posts);
     });
 
+    $http.get('api/threads/'+$stateParams.name).success(function(threads){
+      $scope.threads = threads;
+
+      socket.syncUpdates('thread', $scope.threads);
+    });
+
+    $scope.$watch("threads",function(threads){
+      console.log("Threads update...");
+      if (!threads) return;
+      $scope.thread = $scope.threads[0];
+    },true);
+
+
     $scope.updateThread = function() {
+      // console.log("Updating thread...",$scope.thread);
       $http.patch('api/threads/'+$scope.thread._id,$scope.thread);
     }
 
     $scope.$watch("thread",function(thread){
-      // if ($scope.lastUpdated) {
-        // $scope.lastUpdated = false;
-        // return;
-      // }
       if (!thread) return;
       // thread.ts = new Date().getTime();
-      
+      $scope.updateThread();   
     },true);
 
     $scope.addPost = function() {

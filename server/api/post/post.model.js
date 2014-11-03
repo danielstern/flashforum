@@ -8,7 +8,9 @@ var PostSchema = new Schema({
   info: String,
   active: Boolean,
   thread: Object,
-  owner:Object
+  owner:Object,
+  ts: Number,
+  _origin: String
 });
 
 module.exports = mongoose.model('Post', PostSchema);
