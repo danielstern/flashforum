@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('flashforumApp')
-  .controller('MainCtrl', function ($scope, $http, socket,Auth) {
+  .controller('MainCtrl', function ($scope, $http, socket,Auth,$state) {
     $scope.awesomeThings = [];
 
     $scope.thread = {
@@ -16,7 +16,9 @@ angular.module('flashforumApp')
     });
 
     console.log("user",Auth.getCurrentUser());
+    $scope.thread = {
 
+    };
     $scope.addThing = function() {
       if($scope.newThing === '') {
         return;
@@ -24,6 +26,15 @@ angular.module('flashforumApp')
       $http.post('/api/things', { name: $scope.newThing, owner:Auth.getCurrentUser() });
       $scope.newThing = '';
     };
+
+    $scope.addThread = function(){
+      if(!$scope.thread.name) {
+        return;
+      }
+      $http.post('/api/things', { name: $scope.newThing, owner:Auth.getCurrentUser() });
+      $state.go('thread',{name:$scope.thread.name});
+
+    }
 
     $scope.deleteThing = function(thing) {
       $http.delete('/api/things/' + thing._id);

@@ -26,6 +26,15 @@ header#banner.hero-unit
 .container
   .row
     .col-lg-12
+      h1.page-header New Thread
+      label Thread Name
+      p.input-group
+        input.form-control(type='text', placeholder='Name your thread, ser', ng-model='thread.name')
+        span.input-group-btn
+          button.btn.btn-primary(type='submit', ng-click='addThread()') New Thread
+.container
+  .row
+    .col-lg-12
       h1.page-header Magic Cards > PTQ:
       h2 {{thread.title}}
       p {{thread.description}}
