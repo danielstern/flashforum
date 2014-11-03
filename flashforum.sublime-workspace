@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hex",
+				"hexToRgb"
+			],
+			[
+				"thumb-shad",
+				"thumb-shadow-color"
+			],
+			[
+				"less",
+				"lessVals"
+			],
+			[
+				"track-b",
+				"track-border-width"
+			],
+			[
+				"les",
+				"lessVals"
+			],
+			[
+				"thumb-sh",
+				"thumb-shadow-color"
+			],
+			[
+				"thumb-s",
+				"thumb-shadow-blur"
+			],
+			[
+				"modi",
+				"modifyLess"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"thu",
+				"thumb-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"thumb",
+				"thumb-height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/app/app.js",
+			"settings":
+			{
+				"buffer_size": 1503,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 3029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 17237,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/flashforum"
+	],
+	"file_history":
+	[
+		"/D/Projects/flashforum/client/components/mongoose-error/mongoose-error.directive.js",
+		"/D/Projects/flashforum/node_modules/jade/node_modules/monocle/monocle.js",
+		"/D/Projects/flashforum/node_modules/composable-middleware/lib/middleware-common-object.js",
+		"/D/Projects/flashforum/node_modules/express/Makefile",
+		"/D/Projects/range.css/app/scripts/colorPicker.js",
+		"/D/Projects/range.css/styles/main.css.map",
+		"/D/Projects/range.css/app/index.html",
+		"/D/Projects/range.css/app/partials/docs.html",
+		"/D/Projects/range.css/app/less/main.less",
+		"/D/Projects/range.css/app/styles/main.css",
+		"/D/Projects/range.css/app/partials/demo.html",
+		"/D/Projects/range.css/modern-webapp.sublime-project",
+		"/D/Projects/modern-webapp/Gruntfile.js",
+		"/D/Projects/modern-webapp/app/index.html",
+		"/D/Projects/modern-webapp/app/partials/color-picker.html",
+		"/D/Projects/modern-webapp/app/partials/main.html",
+		"/D/Projects/modern-webapp/app/less/range.less",
+		"/D/Projects/modern-webapp/app/less/main.less",
+		"/D/Projects/modern-webapp/app/typescript/main.ts",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/D/Projects/modern-webapp/node_modules/grunt-autoprefixer/CHANGELOG",
+		"/D/Projects/modern-webapp/app/typescript/colorPicker.ts",
+		"/D/Projects/modern-webapp/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEmptyAttrs.js",
+		"/D/Projects/modern-webapp/README.md",
+		"/D/Projects/modern-webapp/app/scripts/colorPicker.js",
+		"/D/Projects/modern-webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg",
+		"/D/Projects/modern-webapp/.editorconfig",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/D/Projects/modern-webapp/modern-webapp.sublime-project",
+		"/D/Projects/modern-webapp/app/test.html",
+		"/D/Projects/modern-webapp/app/less.custom.js",
+		"/D/Projects/modern-webapp/package.json",
+		"/D/Projects/modern-webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/png-alpha.json",
+		"/D/Projects/modern-webapp/npm-debug.log",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-less/tasks/less.js",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-less/node_modules/.bin/lessc",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-less/node_modules/less/test/css/lazy-eval.css",
+		"/D/Projects/modern-webapp/bower_components/angular-ui-router/LICENSE",
+		"/C/Users/Admin/Downloads/colorscheme-#b33d90.less",
+		"/D/Projects/modern-webapp/bower_components/bootstrap/less/input-groups.less",
+		"/D/Projects/modern-webapp/node_modules/grunt-mocha/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/install.js",
+		"/D/Projects/modern-webapp/node_modules/grunt-wiredep/node_modules/wiredep/node_modules/bower-config/node_modules/mout/lang/isNull.js",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-imagemin/node_modules/.bin/imagemin",
+		"/D/Projects/modern-webapp/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/import-malformed.less",
+		"/D/Projects/modern-webapp/.gitignore",
+		"/D/Projects/modern-webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/input-number.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mongodb://",
+			"mongodb:",
+			"firefox an",
+			"invisi",
+			"thum",
+			"no thum",
+			"thumb-only",
+			"col-",
+			"\n    ",
+			"col-",
+			"thumb-onl",
+			"track-o",
+			">\n",
+			"animate",
+			"	\n",
+			"tricks",
+			"copy",
+			"thumb r",
+			"thumb-ro",
+			"\n		",
+			"thumb-rou",
+			"typesc",
+			"consol",
+			";\n",
+			"\n			",
+			"thumb",
+			"lessVals",
+			"thumb-color",
+			"`",
+			"color2",
+			"color1",
+			"names",
+			"less",
+			"genn",
+			"track-radius",
+			"track",
+			"range-roundness",
+			"margin",
+			"border",
+			"1px",
+			"col",
+			"px",
+			"300",
+			"color4",
+			"width: 16px;",
+			"height: 16px;",
+			"50%",
+			"goldenrod",
+			"#ddd",
+			"goldenrod",
+			"#ccc",
+			"#ddd",
+			"input[type=range]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"track",
+			"thumb-border-color",
+			"thumb-color",
+			"track-color",
+			"track-radius",
+			"color2",
+			"width: @thumb-width;",
+			"height: @thumb-height;",
+			"height: @thumb-height",
+			"@thumb-roundness",
+			"@color4",
+			"@color1",
+			"@color3",
+			"@color2",
+			"@color1",
+			"&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/app/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1503,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2801,
+								2801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 846.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5128,
+								5128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2040.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "flashforum.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main.le",
+				"app\\less\\main.less"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"main.l",
+				"app\\less\\main.less"
+			],
+			[
+				"colo",
+				"app\\partials\\color-picker.html"
+			],
+			[
+				"range.",
+				"app\\less\\range.less"
+			],
+			[
+				"ind",
+				"app\\index.html"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				".less",
+				"app\\less\\range.less"
+			],
+			[
+				"packa",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
