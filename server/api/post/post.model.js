@@ -6,7 +6,8 @@ var mongoose = require('mongoose'),
 var PostSchema = new Schema({
   name: String,
   info: String,
-  active: Boolean
+  active: Boolean,
+  thread: Object
 });
 
 module.exports = mongoose.model('Post', PostSchema);
