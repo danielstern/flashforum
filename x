@@ -1,30 +1,3 @@
-2014-11-03T02:14:26.462310+00:00 app[web.1]: Error: failed to connect to [localhost:27017]
-2014-11-03T02:14:26.462318+00:00 app[web.1]:     at emit (events.js:98:17)
-2014-11-03T02:14:26.462315+00:00 app[web.1]:     at emit (events.js:106:17)
-2014-11-03T02:14:26.462317+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:150:15)
-2014-11-03T02:14:26.458944+00:00 app[web.1]: 
-2014-11-03T02:14:26.459089+00:00 app[web.1]: events.js:72
-2014-11-03T02:14:26.462313+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js:549:74)
-2014-11-03T02:14:26.462320+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:533:10)
-2014-11-03T02:14:26.455234+00:00 app[web.1]: Express server listening on 16246, in development mode
-2014-11-03T02:14:26.491393+00:00 app[web.1]: npm ERR! flashforum@0.0.0 start: `node server/app.js`
-2014-11-03T02:14:26.493152+00:00 app[web.1]: npm ERR! not with npm itself.
-2014-11-03T02:14:26.493356+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
-2014-11-03T02:14:27.678466+00:00 heroku[web.1]: Process exited with status 1
-2014-11-03T02:14:27.947397+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=70d7b8b7-3eeb-477e-a9a9-2fb372708ca0 fwd="207.244.77.5" dyno= connect= service= status=503 bytes=
-2014-11-03T02:14:27.693663+00:00 heroku[web.1]: State changed from starting to crashed
-2014-11-03T02:14:29.042237+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=74d9322d-49be-42dc-a604-59f945b8429d fwd="207.244.77.5" dyno= connect= service= status=503 bytes=
-2014-11-03T02:14:31.568617+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=ceac4ae2-4bc7-4ed0-97a1-93d5d94274ef fwd="207.244.77.5" dyno= connect= service= status=503 bytes=
-2014-11-03T02:14:46.902850+00:00 heroku[web.1]: State changed from crashed to starting
-2014-11-03T02:14:46.811948+00:00 heroku[api]: Set NODE_ENV config vars by daniel@danielstern.ca
-2014-11-03T02:14:46.812138+00:00 heroku[api]: Release v36 created by daniel@danielstern.ca
-2014-11-03T02:14:53.650665+00:00 heroku[web.1]: Starting process with command `npm start`
-2014-11-03T02:14:55.612586+00:00 app[web.1]: 
-2014-11-03T02:14:55.612603+00:00 app[web.1]: > flashforum@0.0.0 start /app
-2014-11-03T02:14:55.612605+00:00 app[web.1]: > node server/app.js
-2014-11-03T02:14:55.612607+00:00 app[web.1]: 
-2014-11-03T02:14:56.646243+00:00 app[web.1]:     at emit (events.js:98:17)
-2014-11-03T02:14:56.643773+00:00 app[web.1]: 
 2014-11-03T02:14:56.646241+00:00 app[web.1]:     at null.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:150:15)
 2014-11-03T02:14:56.644125+00:00 app[web.1]:         throw er; // Unhandled 'error' event
 2014-11-03T02:14:56.643864+00:00 app[web.1]: events.js:72
@@ -45,7 +18,8 @@
 2014-11-03T02:14:56.659367+00:00 app[web.1]: 
 2014-11-03T02:14:56.665494+00:00 app[web.1]: npm ERR! Exit status 8
 2014-11-03T02:14:56.665628+00:00 app[web.1]: npm ERR! 
-2014-11-03T02:14:56.646245+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:533:10)
+2014-11-03T02:14:56.646245+00:00 app[web.1]:     at Socket.<anony
+mous> (/app/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js:533:10)
 2014-11-03T02:14:56.670681+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
 2014-11-03T02:14:56.670581+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
 2014-11-03T02:14:56.670881+00:00 app[web.1]: npm ERR! not ok code 0
@@ -73,7 +47,8 @@
 2014-11-03T02:15:33.463206+00:00 app[web.1]: 
 2014-11-03T02:15:34.518098+00:00 app[web.1]: Express server listening on 46845, in production mode
 2014-11-03T02:15:33.463186+00:00 app[web.1]: 
-2014-11-03T02:15:36.549043+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
+2014-11-03T02:15:36.549043+00:
+00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
 2014-11-03T02:15:36.556805+00:00 app[web.1]: [90mGET / [33m404 [90m10ms - 9b[0m
 2014-11-03T02:15:59.801579+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=5a824aab-fcbb-4ad2-a217-76f7d99c6923 fwd="207.244.77.5" dyno=web.1 connect=2ms service=13ms status=404 bytes=181
 2014-11-03T02:15:59.790478+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
@@ -99,3 +74,31 @@
 2014-11-03T02:17:43.199532+00:00 app[web.1]: [90mGET / [33m404 [90m3ms - 9b[0m
 2014-11-03T02:17:43.196935+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
 2014-11-03T02:17:43.203417+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=4d7295b9-1cae-4426-ab81-527d38ce647c fwd="207.244.77.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=181
+2014-11-03T02:19:11.051685+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=909608de-c60e-472f-8cdf-755610386cf9 fwd="207.244.77.5" dyno=web.1 connect=1ms service=6ms status=404 bytes=181
+2014-11-03T02:19:11.050680+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
+2014-11-03T02:19:11.052717+00:00 app[web.1]: [90mGET / [33m404 [90m2ms - 9b[0m
+2014-11-03T02:20:45+00:00 heroku[slug-compiler]: Slug compilation started
+2014-11-03T02:21:13.955339+00:00 heroku[web.1]: State changed from up to starting
+
+2014-11-03T02:21:13+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-11-03T02:21:17.923924+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2014-11-03T02:21:17.020957+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-11-03T02:21:18.782752+00:00 heroku[web.1]: Process exited with status 22
+2014-11-03T02:21:20.369908+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-11-03T02:21:13.686523+00:00 heroku[api]: Deploy 394e156 by daniel@danielstern.ca
+2014-11-03T02:21:13.686595+00:00 heroku[api]: Release v39 created by daniel@danielstern.ca
+2014-11-03T02:21:22.676866+00:00 heroku[web.1]: State changed from starting to up
+2014-11-03T02:21:24.253262+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
+2014-11-03T02:21:24.255973+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=e23bf035-91b1-45de-9b58-c45df298523d fwd="207.244.77.5" dyno=web.1 connect=1ms service=67ms status=404 bytes=181
+2014-11-03T02:21:25.900696+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=9ca57fcf-d2a6-4250-8d22-bfe3a94d7db6 fwd="207.244.77.5" dyno=web.1 connect=1ms service=9ms status=404 bytes=181
+2014-11-03T02:21:25.905266+00:00 app[web.1]: [90mGET / [33m404 [90m5ms - 9b[0m
+2014-11-03T02:21:25.901762+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
+2014-11-03T02:21:27.570668+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=914c783c-96e5-4339-ad7c-23cb2aeafc7d fwd="207.244.77.5" dyno=web.1 connect=0ms service=8ms status=404 bytes=181
+2014-11-03T02:21:27.571387+00:00 app[web.1]: [90mGET / [33m404 [90m2ms - 9b[0m
+2014-11-03T02:21:27.569657+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
+2014-11-03T02:21:24.261287+00:00 app[web.1]: [90mGET / [33m404 [90m10ms - 9b[0m
+2014-11-03T02:21:22.224091+00:00 app[web.1]: Express server listening on 30824, in production mode
+2014-11-03T02:21:21.325134+00:00 app[web.1]: > node server/app.js
+2014-11-03T02:21:21.325135+00:00 app[web.1]: 
+2014-11-03T02:21:21.325132+00:00 app[web.1]: > flashforum@0.0.0 start /app
+2014-11-03T02:21:21.325116+00:00 app[web.1]: 
