@@ -1,101 +1,101 @@
-2014-11-03T01:56:34.872317+00:00 app[web.1]: bower angular-sanitize#>=1.2.*          install angular-sanitize#1.3.1
-2014-11-03T01:56:34.873867+00:00 app[web.1]: bower lodash#~2.4.1                     install lodash#2.4.1
-2014-11-03T01:56:34.873739+00:00 app[web.1]: bower angular-ui-router#~0.2.10         install angular-ui-router#0.2.11
-2014-11-03T01:56:34.873411+00:00 app[web.1]: bower es5-shim#~3.0.1                   install es5-shim#3.0.2
-2014-11-03T01:56:34.872936+00:00 app[web.1]: bower angular-scenario#>=1.2.*          install angular-scenario#1.3.1
-2014-11-03T01:56:34.867738+00:00 app[web.1]: 
-2014-11-03T01:56:34.867761+00:00 app[web.1]: 
-2014-11-03T01:56:34.867760+00:00 app[web.1]: Code incompatibilities may occur.
-2014-11-03T01:56:34.871471+00:00 app[web.1]: bower angular-resource#>=1.2.*          install angular-resource#1.3.1
-2014-11-03T01:56:34.867749+00:00 app[web.1]: Please note that,
-2014-11-03T01:56:34.867751+00:00 app[web.1]:     angular-socket-io#0.6.0 depends on angular#~1.2.6 which resolved to angular#1.2.26
-2014-11-03T01:56:34.867753+00:00 app[web.1]:     angular-cookies#1.3.1, angular-mocks#1.3.1, angular-resource#1.3.1, angular-sanitize#1.3.1, angular-scenario#1.3.1 depends on angular#1.3.1 which resolved to angular#1.3.1
-2014-11-03T01:56:34.872162+00:00 app[web.1]: bower angular-cookies#>=1.2.*           install angular-cookies#1.3.1
-2014-11-03T01:56:34.873273+00:00 app[web.1]: bower angular#~1.2.6                    install angular#1.2.26
-2014-11-03T01:56:34.867754+00:00 app[web.1]:     flashforum depends on angular#>=1.2.* which resolved to angular#1.3.1
-2014-11-03T01:56:34.867756+00:00 app[web.1]:     angular-bootstrap#0.11.2 depends on angular#>=1 which resolved to angular#1.3.1
-2014-11-03T01:56:34.867758+00:00 app[web.1]: Resort to using angular#>= 1.0.8 which resolved to angular#1.2.26
-2014-11-03T01:56:34.867757+00:00 app[web.1]:     angular-ui-router#0.2.11 depends on angular#>= 1.0.8 which resolved to angular#1.3.1
-2014-11-03T01:56:35.702703+00:00 app[web.1]: 
-2014-11-03T01:56:35.702710+00:00 app[web.1]: angular-resource#1.3.1 client/bower_components/angular-resource
-2014-11-03T01:56:35.702712+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702713+00:00 app[web.1]: 
-2014-11-03T01:56:35.702714+00:00 app[web.1]: angular-mocks#1.3.1 client/bower_components/angular-mocks
-2014-11-03T01:56:35.702716+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702719+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702718+00:00 app[web.1]: angular-cookies#1.3.1 client/bower_components/angular-cookies
-2014-11-03T01:56:35.702717+00:00 app[web.1]: 
-2014-11-03T01:56:35.702736+00:00 app[web.1]: angular-sanitize#1.3.1 client/bower_components/angular-sanitize
-2014-11-03T01:56:35.702734+00:00 app[web.1]: 
-2014-11-03T01:56:35.702737+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702738+00:00 app[web.1]: 
-2014-11-03T01:56:35.702739+00:00 app[web.1]: angular-bootstrap#0.11.2 client/bower_components/angular-bootstrap
-2014-11-03T01:56:35.702747+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702748+00:00 app[web.1]: 
-2014-11-03T01:56:35.702749+00:00 app[web.1]: angular-socket-io#0.6.0 client/bower_components/angular-socket-io
-2014-11-03T01:56:35.702750+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702752+00:00 app[web.1]: angular-scenario#1.3.1 client/bower_components/angular-scenario
-2014-11-03T01:56:35.702751+00:00 app[web.1]: 
-2014-11-03T01:56:35.702754+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702755+00:00 app[web.1]: 
-2014-11-03T01:56:35.702756+00:00 app[web.1]: angular#1.2.26 client/bower_components/angular
-2014-11-03T01:56:35.702757+00:00 app[web.1]: 
-2014-11-03T01:56:35.702759+00:00 app[web.1]: es5-shim#3.0.2 client/bower_components/es5-shim
-2014-11-03T01:56:35.702760+00:00 app[web.1]: 
-2014-11-03T01:56:35.702761+00:00 app[web.1]: json3#3.3.2 client/bower_components/json3
-2014-11-03T01:56:35.702762+00:00 app[web.1]: 
-2014-11-03T01:56:35.702763+00:00 app[web.1]: angular-ui-router#0.2.11 client/bower_components/angular-ui-router
-2014-11-03T01:56:35.702764+00:00 app[web.1]: └── angular#1.2.26
-2014-11-03T01:56:35.702765+00:00 app[web.1]: 
-2014-11-03T01:56:35.702766+00:00 app[web.1]: lodash#2.4.1 client/bower_components/lodash
-2014-11-03T01:56:35.702769+00:00 app[web.1]: jquery#1.11.1 client/bower_components/jquery
-2014-11-03T01:56:35.702768+00:00 app[web.1]: 
-2014-11-03T01:56:35.702770+00:00 app[web.1]: 
-2014-11-03T01:56:35.702772+00:00 app[web.1]: └── jquery#1.11.1
-2014-11-03T01:56:35.702773+00:00 app[web.1]: 
-2014-11-03T01:56:35.702771+00:00 app[web.1]: bootstrap#3.1.1 client/bower_components/bootstrap
-2014-11-03T01:56:35.702775+00:00 app[web.1]: font-awesome#4.2.0 client/bower_components/font-awesome
-2014-11-03T01:56:37.520749+00:00 app[web.1]: 
-2014-11-03T01:56:37.521737+00:00 app[web.1]:   return binding.stat(pathModule._makeLong(path));
-2014-11-03T01:56:37.523533+00:00 app[web.1]: Error: ENOENT, no such file or directory '/app/public/favicon.ico'
-2014-11-03T01:56:37.523536+00:00 app[web.1]:     at Object.fs.statSync (fs.js:695:18)
-2014-11-03T01:56:37.523538+00:00 app[web.1]:     at favicon (/app/node_modules/serve-favicon/index.js:47:15)
-2014-11-03T01:56:37.523543+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
-2014-11-03T01:56:37.523545+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
-2014-11-03T01:56:37.521770+00:00 app[web.1]:                  ^
-2014-11-03T01:56:37.523544+00:00 app[web.1]:     at Module.load (module.js:356:32)
-2014-11-03T01:56:37.523539+00:00 app[web.1]:     at module.exports (/app/server/config/express.js:44:13)
-2014-11-03T01:56:37.538849+00:00 app[web.1]: 
-2014-11-03T01:56:37.523540+00:00 app[web.1]:     at Object.<anonymous> (/app/server/app.js:28:28)
-2014-11-03T01:56:37.523542+00:00 app[web.1]:     at Module._compile (module.js:456:26)
-2014-11-03T01:56:37.523547+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
-2014-11-03T01:56:37.523548+00:00 app[web.1]:     at startup (node.js:119:16)
-2014-11-03T01:56:37.549816+00:00 app[web.1]: npm ERR! Failed at the flashforum@0.0.0 start script.
-2014-11-03T01:56:37.550220+00:00 app[web.1]: npm ERR! not with npm itself.
-2014-11-03T01:56:37.549164+00:00 app[web.1]: npm ERR! 
-2014-11-03T01:56:37.550032+00:00 app[web.1]: npm ERR! This is most likely a problem with the flashforum package,
-2014-11-03T01:56:37.521376+00:00 app[web.1]: fs.js:695
-2014-11-03T01:56:37.548932+00:00 app[web.1]: npm ERR! Exit status 8
-2014-11-03T01:56:37.548619+00:00 app[web.1]: npm ERR! flashforum@0.0.0 start: `npm install -g bower;bower install -F;node server/app.js`
-2014-11-03T01:56:37.550376+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
-2014-11-03T01:56:37.550536+00:00 app[web.1]: npm ERR!     npm install -g bower;bower install -F;node server/app.js
-2014-11-03T01:56:37.550695+00:00 app[web.1]: npm ERR! You can get their info via:
-2014-11-03T01:56:37.550899+00:00 app[web.1]: npm ERR!     npm owner ls flashforum
-2014-11-03T01:56:37.551126+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
-2014-11-03T01:56:37.551360+00:00 app[web.1]: npm ERR! System Linux 3.8.11-ec2
-2014-11-03T01:56:37.551575+00:00 app[web.1]: npm ERR! command "/app/vendor/node/bin/node" "/app/vendor/node/bin/npm" "start"
-2014-11-03T01:56:37.551789+00:00 app[web.1]: npm ERR! cwd /app
-2014-11-03T01:56:37.552436+00:00 app[web.1]: npm ERR! node -v v0.10.33
-2014-11-03T01:56:37.552668+00:00 app[web.1]: npm ERR! npm -v 1.4.28
-2014-11-03T01:56:37.552875+00:00 app[web.1]: npm ERR! code ELIFECYCLE
-2014-11-03T01:56:37.555018+00:00 app[web.1]: npm ERR! 
-2014-11-03T01:56:37.555180+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
-2014-11-03T01:56:37.555334+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
-2014-11-03T01:56:37.555607+00:00 app[web.1]: npm ERR! not ok code 0
-2014-11-03T01:56:38.350942+00:00 heroku[web.1]: Process exited with status 1
-2014-11-03T01:56:38.359876+00:00 heroku[web.1]: State changed from starting to crashed
-2014-11-03T01:56:39.322208+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=4dceba5c-de8a-4778-aee1-e71e728bb4d7 fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
-2014-11-03T01:56:40.846307+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=44a384ab-9ae2-4031-943c-cc00f49cc5cd fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
-2014-11-03T01:56:41.714421+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=575adc65-2104-4aa7-8ece-b8c04913eda6 fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
-2014-11-03T01:56:45.005831+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=0faa4be6-591b-49be-b692-7f38301bde93 fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
-2014-11-03T01:56:45.385627+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=ed682dff-9590-44a2-85e1-ac51531a6bdc fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:00:05.164412+00:00 app[web.1]: ├── glob@4.0.6 (inherits@2.0.1, once@1.3.1, minimatch@1.0.0)
+2014-11-03T02:00:05.164414+00:00 app[web.1]: ├── request@2.42.0 (caseless@0.6.0, json-stringify-safe@5.0.0, aws-sign2@0.5.0, forever-agent@0.5.2, stringstream@0.0.4, oauth-sign@0.4.0, tunnel-agent@0.4.0, node-uuid@1.4.1, qs@1.2.2, mime-types@1.0.2, form-data@0.1.4, bl@0.9.3, tough-cookie@0.12.1, http-signature@0.10.0, hawk@1.1.1)
+2014-11-03T02:00:05.164415+00:00 app[web.1]: ├── bower-registry-client@0.2.1 (graceful-fs@2.0.3, request-replay@0.2.0, lru-cache@2.3.1, async@0.2.10, mkdirp@0.3.5, request@2.27.0)
+2014-11-03T02:00:05.164416+00:00 app[web.1]: ├── cardinal@0.4.0 (redeyed@0.4.4)
+2014-11-03T02:00:05.164419+00:00 app[web.1]: ├── update-notifier@0.2.0 (semver-diff@0.1.0, string-length@0.1.2, latest-version@0.2.0, configstore@0.3.1)
+2014-11-03T02:00:05.164420+00:00 app[web.1]: ├── inquirer@0.7.1 (figures@1.3.3, mute-stream@0.0.4, through@2.3.6, readline2@0.1.0, lodash@2.4.1, cli-color@0.3.2, rx@2.3.14)
+2014-11-03T02:00:05.164421+00:00 app[web.1]: ├── handlebars@2.0.0 (optimist@0.3.7, uglify-js@2.3.6)
+2014-11-03T02:00:05.164423+00:00 app[web.1]: └── insight@0.4.3 (object-assign@1.0.0, async@0.9.0, chalk@0.5.1, os-name@1.0.1, lodash.debounce@2.4.1, tough-cookie@0.12.1, configstore@0.3.1, inquirer@0.6.0)
+2014-11-03T02:00:06+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-11-03T02:00:06.644154+00:00 heroku[api]: Deploy 3a1f915 by daniel@danielstern.ca
+2014-11-03T02:00:06.644212+00:00 heroku[api]: Release v31 created by daniel@danielstern.ca
+2014-11-03T02:00:10.417431+00:00 app[web.1]: npm ERR! flashforum@0.0.0 start: `npm install -g bower;bower install -F;node server/app.js`
+2014-11-03T02:00:10.417601+00:00 app[web.1]: npm ERR! Exit status 8
+2014-11-03T02:00:10.417758+00:00 app[web.1]: npm ERR! 
+2014-11-03T02:00:10.418352+00:00 app[web.1]: npm ERR! Failed at the flashforum@0.0.0 start script.
+2014-11-03T02:00:10.370762+00:00 app[web.1]: fs.js:695
+2014-11-03T02:00:10.375598+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-11-03T02:00:10.370997+00:00 app[web.1]:   return binding.stat(pathModule._makeLong(path));
+2014-11-03T02:00:10.375599+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-11-03T02:00:10.371006+00:00 app[web.1]:                  ^
+2014-11-03T02:00:10.375600+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2014-11-03T02:00:10.375587+00:00 app[web.1]: Error: ENOENT, no such file or directory '/app/public/favicon.ico'
+2014-11-03T02:00:10.370637+00:00 app[web.1]: 
+2014-11-03T02:00:10.375602+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2014-11-03T02:00:10.375591+00:00 app[web.1]:     at Object.fs.statSync (fs.js:695:18)
+2014-11-03T02:00:10.402289+00:00 app[web.1]: 
+2014-11-03T02:00:10.375593+00:00 app[web.1]:     at favicon (/app/node_modules/serve-favicon/index.js:47:15)
+2014-11-03T02:00:10.418713+00:00 app[web.1]: npm ERR! This is most likely a problem with the flashforum package,
+2014-11-03T02:00:10.419053+00:00 app[web.1]: npm ERR! You can get their info via:
+2014-11-03T02:00:10.419156+00:00 app[web.1]: npm ERR!     npm owner ls flashforum
+2014-11-03T02:00:10.419832+00:00 app[web.1]: npm ERR! node -v v0.10.33
+2014-11-03T02:00:10.419946+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2014-11-03T02:00:10.375603+00:00 app[web.1]:     at startup (node.js:119:16)
+2014-11-03T02:00:10.419240+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2014-11-03T02:00:10.420073+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2014-11-03T02:00:10.426586+00:00 app[web.1]: npm ERR! 
+2014-11-03T02:00:10.375594+00:00 app[web.1]:     at module.exports (/app/server/config/express.js:44:13)
+2014-11-03T02:00:10.418791+00:00 app[web.1]: npm ERR! not with npm itself.
+2014-11-03T02:00:10.419528+00:00 app[web.1]: npm ERR! command "/app/vendor/node/bin/node" "/app/vendor/node/bin/npm" "start"
+2014-11-03T02:00:10.426660+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2014-11-03T02:00:10.375596+00:00 app[web.1]:     at Object.<anonymous> (/app/server/app.js:28:28)
+2014-11-03T02:00:10.418882+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2014-11-03T02:00:10.426742+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2014-11-03T02:00:10.375597+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2014-11-03T02:00:10.419040+00:00 app[web.1]: npm ERR!     npm install -g bower;bower install -F;node server/app.js
+2014-11-03T02:00:10.419622+00:00 app[web.1]: npm ERR! cwd /app
+2014-11-03T02:00:10.426914+00:00 app[web.1]: npm ERR! not ok code 0
+2014-11-03T02:00:10.419382+00:00 app[web.1]: npm ERR! System Linux 3.8.11-ec2
+2014-11-03T02:00:10.539971+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-11-03T02:00:11.609683+00:00 heroku[web.1]: Process exited with status 1
+2014-11-03T02:00:23.435113+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-11-03T02:00:24.428223+00:00 app[web.1]: > node server/app.js
+2014-11-03T02:00:24.428206+00:00 app[web.1]: 
+2014-11-03T02:00:24.428225+00:00 app[web.1]: 
+2014-11-03T02:00:24.428222+00:00 app[web.1]: > flashforum@0.0.0 start /app
+2014-11-03T02:00:25.256576+00:00 app[web.1]: 
+2014-11-03T02:00:25.258478+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2014-11-03T02:00:25.258479+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2014-11-03T02:00:25.258480+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2014-11-03T02:00:25.258482+00:00 app[web.1]:     at Function.Module.runMain (module.js:497:10)
+2014-11-03T02:00:25.258483+00:00 app[web.1]:     at startup (node.js:119:16)
+2014-11-03T02:00:25.268949+00:00 app[web.1]: 
+2014-11-03T02:00:25.275266+00:00 app[web.1]: npm ERR! This is most likely a problem with the flashforum package,
+2014-11-03T02:00:25.276548+00:00 app[web.1]: npm ERR! node -v v0.10.33
+2014-11-03T02:00:25.275360+00:00 app[web.1]: npm ERR! not with npm itself.
+2014-11-03T02:00:25.276666+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2014-11-03T02:00:25.256976+00:00 app[web.1]:                  ^
+2014-11-03T02:00:25.256716+00:00 app[web.1]: fs.js:695
+2014-11-03T02:00:25.274178+00:00 app[web.1]: npm ERR! Exit status 8
+2014-11-03T02:00:25.275974+00:00 app[web.1]: npm ERR! System Linux 3.8.11-ec2
+2014-11-03T02:00:25.274015+00:00 app[web.1]: npm ERR! flashforum@0.0.0 start: `node server/app.js`
+2014-11-03T02:00:25.275843+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2014-11-03T02:00:25.278841+00:00 app[web.1]: npm ERR! not ok code 0
+2014-11-03T02:00:25.275457+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2014-11-03T02:00:25.276789+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2014-11-03T02:00:25.258472+00:00 app[web.1]:     at favicon (/app/node_modules/serve-favicon/index.js:47:15)
+2014-11-03T02:00:25.258473+00:00 app[web.1]:     at module.exports (/app/server/config/express.js:44:13)
+2014-11-03T02:00:25.275557+00:00 app[web.1]: npm ERR!     node server/app.js
+2014-11-03T02:00:25.278470+00:00 app[web.1]: npm ERR! 
+2014-11-03T02:00:25.258470+00:00 app[web.1]:     at Object.fs.statSync (fs.js:695:18)
+2014-11-03T02:00:25.258475+00:00 app[web.1]:     at Object.<anonymous> (/app/server/app.js:28:28)
+2014-11-03T02:00:25.256959+00:00 app[web.1]:   return binding.stat(pathModule._makeLong(path));
+2014-11-03T02:00:25.258476+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2014-11-03T02:00:25.275747+00:00 app[web.1]: npm ERR!     npm owner ls flashforum
+2014-11-03T02:00:25.278670+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2014-11-03T02:00:25.274315+00:00 app[web.1]: npm ERR! 
+2014-11-03T02:00:25.276101+00:00 app[web.1]: npm ERR! command "/app/vendor/node/bin/node" "/app/vendor/node/bin/npm" "start"
+2014-11-03T02:00:25.275649+00:00 app[web.1]: npm ERR! You can get their info via:
+2014-11-03T02:00:25.278575+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2014-11-03T02:00:25.274410+00:00 app[web.1]: npm ERR! Failed at the flashforum@0.0.0 start script.
+2014-11-03T02:00:25.276238+00:00 app[web.1]: npm ERR! cwd /app
+2014-11-03T02:00:26.081039+00:00 heroku[web.1]: State changed from starting to crashed
+2014-11-03T02:00:25.258467+00:00 app[web.1]: Error: ENOENT, no such file or directory '/app/public/favicon.ico'
+2014-11-03T02:00:26.068526+00:00 heroku[web.1]: Process exited with status 1
+2014-11-03T02:00:28.805543+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=flashforum.herokuapp.com request_id=b9dbbdf1-5f70-4d83-95c8-eebb17c42e4b fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:00:29.347799+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=24eb8bde-00b0-4436-9300-47799d9b73da fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:00:28.392549+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=a09221b4-2284-4d0d-9101-b630658178be fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:01:13.258074+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=a6a50b58-4294-4980-a1b1-e34464603fdf fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:01:14.197520+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=3f744b07-0741-4ee6-be17-0105af686f70 fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:01:15.199035+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=d03f5215-c64a-436f-86a6-0d91a63dd8ea fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
+2014-11-03T02:01:15.626747+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=d6c6b91b-a39a-45bc-9008-a73accb73166 fwd="199.115.114.204" dyno= connect= service= status=503 bytes=
