@@ -87,10 +87,10 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "scripts": {
-    "start": "npm install; grunt serve;",
-    "test": "npm install; grunt test",
-    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
-  },
+  // "scripts": {
+  //   "start": "npm install; grunt serve;",
+  //   "test": "npm install; grunt test",
+  //   "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  // },
   "private": true
 }
