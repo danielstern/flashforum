@@ -9,7 +9,8 @@ var ThreadSchema = new Schema({
   active: Boolean,
   owner: Object,
   description: String,
-  tagline: String
+  tagline: String,
+  ts:Number
 });
 
 module.exports = mongoose.model('Thread', ThreadSchema);
