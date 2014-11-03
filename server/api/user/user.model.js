@@ -68,12 +68,12 @@ UserSchema
   }, 'Email cannot be blank');
 
 // Validate empty password
-UserSchema
-  .path('hashedPassword')
-  .validate(function(hashedPassword) {
-    if (authTypes.indexOf(this.provider) !== -1) return true;
-    return hashedPassword.length;
-  }, 'Password cannot be blank');
+//UserSchema
+//.path('hashedPassword')
+//  .validate(function(hashedPassword) {
+//    if (authTypes.indexOf(this.provider) !== -1) return true;
+//    return hashedPassword.length;
+//  }, 'Password cannot be blank');
 
 // Validate email is not taken
 UserSchema
@@ -101,9 +101,9 @@ UserSchema
   .pre('save', function(next) {
     if (!this.isNew) return next();
 
-    if (!validatePresenceOf(this.hashedPassword) && authTypes.indexOf(this.provider) === -1)
-      next(new Error('Invalid password'));
-    else
+    //if (!validatePresenceOf(this.hashedPassword) && authTypes.indexOf(this.provider) === -1)
+    //  next(new Error('Invalid password'));
+    //else
       next();
   });
 

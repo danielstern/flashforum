@@ -1,9 +1,18 @@
 'use strict';
 
 angular.module('flashforumApp')
-  .controller('SignupCtrl', function ($scope, Auth, $location, $window) {
+  .controller('SignupCtrl', function ($scope, Auth, $location, $window, $http) {
+
     $scope.user = {};
     $scope.errors = {};
+
+    $scope.user['name'] = function friendlyName(){
+      //var Moniker = require('moniker');
+      //console.log(Moniker.choose());
+      return "wat";//Moniker.choose();
+      ;}();
+
+   
 
     $scope.register = function(form) {
       $scope.submitted = true;
@@ -11,11 +20,12 @@ angular.module('flashforumApp')
       if(form.$valid) {
         Auth.createUser({
           name: $scope.user.name,
-          email: $scope.user.email,
-          password: $scope.user.password
+          email: $scope.user.email //,
+          //password: $scope.user.password  //Somewhere there is code that depends on this password. a model, or an authenticator- find it and modify away password req
         })
         .then( function() {
-          // Account created, redirect to home
+          $http.post("/postEmail/", $scope.user);
+
           $location.path('/');
         })
         .catch( function(err) {
