@@ -1,20 +1,3 @@
-2014-11-03T02:15:33.463203+00:00 app[web.1]: > flashforum@0.0.0 start /app
-2014-11-03T02:15:33.463205+00:00 app[web.1]: > node server/app.js
-2014-11-03T02:15:33.463206+00:00 app[web.1]: 
-2014-11-03T02:15:34.518098+00:00 app[web.1]: Express server listening on 46845, in production mode
-2014-11-03T02:15:33.463186+00:00 app[web.1]: 
-2014-11-03T02:15:36.549043+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
-2014-11-03T02:15:36.556805+00:00 app[web.1]: [90mGET / [33m404 [90m10ms - 9b[0m
-2014-11-03T02:15:59.801579+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=5a824aab-fcbb-4ad2-a217-76f7d99c6923 fwd="207.244.77.5" dyno=web.1 connect=2ms service=13ms status=404 bytes=181
-2014-11-03T02:15:59.790478+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
-2014-11-03T02:15:59.793295+00:00 app[web.1]: [90mGET / [33m404 [90m4ms - 9b[0m
-2014-11-03T02:16:36+00:00 heroku[slug-compiler]: Slug compilation started
-2014-11-03T02:17:12+00:00 heroku[slug-compiler]: Slug compilation finished
-2014-11-03T02:17:12.729502+00:00 heroku[api]: Deploy 3109b32 by daniel@danielstern.ca
-2014-11-03T02:17:12.729782+00:00 heroku[api]: Release v38 created by daniel@danielstern.ca
-2014-11-03T02:17:13.325657+00:00 heroku[web.1]: State changed from up to starting
-2014-11-03T02:17:15.882571+00:00 heroku[web.1]: Stopping all processes with SIGTERM
-2014-11-03T02:17:17.453617+00:00 heroku[web.1]: Process exited with status 143
 2014-11-03T02:17:21.240029+00:00 heroku[web.1]: Starting process with command `npm start`
 2014-11-03T02:17:22.545339+00:00 app[web.1]: 
 2014-11-03T02:17:22.545358+00:00 app[web.1]: > flashforum@0.0.0 start /app
@@ -44,7 +27,8 @@
 2014-11-03T02:21:22.676866+00:00 heroku[web.1]: State changed from starting to up
 2014-11-03T02:21:24.253262+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
 2014-11-03T02:21:24.255973+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=e23bf035-91b1-45de-9b58-c45df298523d fwd="207.244.77.5" dyno=web.1 connect=1ms service=67ms status=404 bytes=181
-2014-11-03T02:21:25.900696+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=9ca57fcf-d2a6-4250-8d22-bfe3a94d7db6 fwd="207.244.77.5" dyno=web.1 connect=1ms service=9ms status=404 bytes=181
+2014-11-03T02:21:25.900696+00:00 heroku[router]: at=info method=GET path="/" 
+host=flashforum.herokuapp.com request_id=9ca57fcf-d2a6-4250-8d22-bfe3a94d7db6 fwd="207.244.77.5" dyno=web.1 connect=1ms service=9ms status=404 bytes=181
 2014-11-03T02:21:25.905266+00:00 app[web.1]: [90mGET / [33m404 [90m5ms - 9b[0m
 2014-11-03T02:21:25.901762+00:00 app[web.1]: Error: ENOENT, stat '/app/public/index.html'
 2014-11-03T02:21:27.570668+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=914c783c-96e5-4339-ad7c-23cb2aeafc7d fwd="207.244.77.5" dyno=web.1 connect=0ms service=8ms status=404 bytes=181
@@ -73,7 +57,8 @@
 2014-11-03T02:25:24.666333+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=0af4b95f-9ad3-4970-92a2-f21b243143a8 fwd="207.244.77.5" dyno=web.1 connect=1ms service=85ms status=404 bytes=181
 2014-11-03T02:25:24.665029+00:00 app[web.1]: Error: ENOENT, stat 'client//public/index.html'
 2014-11-03T02:25:24.673236+00:00 app[web.1]: [90mGET / [33m404 [90m12ms - 9b[0m
-2014-11-03T02:25:25.481475+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=57115d73-958c-4396-92c4-d8a40c0b8ebd fwd="207.244.77.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=181
+2014-11-03T02:25:25.481475+00:00 heroku[
+router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=57115d73-958c-4396-92c4-d8a40c0b8ebd fwd="207.244.77.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=181
 2014-11-03T02:25:25.484455+00:00 app[web.1]: Error: ENOENT, stat 'client//public/index.html'
 2014-11-03T02:25:25.487379+00:00 app[web.1]: [90mGET / [33m404 [90m4ms - 9b[0m
 2014-11-03T02:25:27.329063+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=e5f62850-5262-4e8e-b6a7-202f08cc0218 fwd="207.244.77.5" dyno=web.1 connect=1ms service=7ms status=404 bytes=181
@@ -99,3 +84,20 @@
 2014-11-03T02:27:00.839086+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=af76d5c0-05ce-4c01-928a-9c4c3542b8dd fwd="207.244.77.143" dyno=web.1 connect=1ms service=6ms status=404 bytes=181
 2014-11-03T02:27:00.833710+00:00 app[web.1]: Error: ENOENT, stat 'client/public/index.html'
 2014-11-03T02:27:00.835961+00:00 app[web.1]: [90mGET / [33m404 [90m2ms - 9b[0m
+2014-11-03T02:27:47+00:00 heroku[slug-compiler]: Slug compilation started
+2014-11-03T02:28:12+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-11-03T02:28:12.491800+00:00 heroku[api]: Deploy 92066d7 by daniel@danielstern.ca
+2014-11-03T02:28:12.492558+00:00 heroku[api]: Release v42 created by daniel@danielstern.ca
+2014-11-03T02:28:12.640640+00:00 heroku[web.1]: State changed from up to starting
+2014-11-03T02:28:15.344083+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-11-03T02:28:16.729726+00:00 heroku[web.1]: Process exited with status 143
+2014-11-03T02:28:21.021641+00:00 heroku[web.1]: Starting process with command `npm start`
+2014-11-03T02:28:22.868505+00:00 app[web.1]: 
+2014-11-03T02:28:22.868521+00:00 app[web.1]: > flashforum@0.0.0 start /app
+2014-11-03T02:28:22.868523+00:00 app[web.1]: > node server/app.js
+2014-11-03T02:28:22.868524+00:00 app[web.1]: 
+2014-11-03T02:28:24.110036+00:00 app[web.1]: Express server listening on 28461, in production mode
+2014-11-03T02:28:24.429324+00:00 heroku[web.1]: State changed from starting to up
+2014-11-03T02:29:16.401967+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=a1e82a1f-1f96-42e1-9f01-65219687836e fwd="207.244.77.143" dyno=web.1 connect=1ms service=83ms status=404 bytes=181
+2014-11-03T02:29:16.384165+00:00 app[web.1]: Error: ENOENT, stat 'dist/public/index.html'
+2014-11-03T02:29:16.392988+00:00 app[web.1]: [90mGET / [33m404 [90m10ms - 9b[0m
