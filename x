@@ -1,101 +1,101 @@
-2014-11-03T00:02:20.257239+00:00 app[web.1]: grunt-cli: The grunt command line interface. (v0.1.13)
-2014-11-03T00:02:20.062392+00:00 app[web.1]: grunt-cli@0.1.13 /app/vendor/node/lib/node_modules/grunt-cli
-2014-11-03T00:02:20.062399+00:00 app[web.1]: ├── nopt@1.0.10 (abbrev@1.0.5)
-2014-11-03T00:02:20.062402+00:00 app[web.1]: ├── resolve@0.3.1
-2014-11-03T00:02:20.062404+00:00 app[web.1]: └── findup-sync@0.1.3 (glob@3.2.11, lodash@2.4.1)
-2014-11-03T00:02:20.257779+00:00 app[web.1]: hasn't been installed locally to your project. For more information about
-2014-11-03T00:02:20.257837+00:00 app[web.1]: http://gruntjs.com/getting-started
-2014-11-03T00:02:20.257583+00:00 app[web.1]: 
-2014-11-03T00:02:20.257648+00:00 app[web.1]: Fatal error: Unable to find local grunt.
-2014-11-03T00:02:20.257669+00:00 app[web.1]: 
-2014-11-03T00:02:20.257750+00:00 app[web.1]: If you're seeing this message, either a Gruntfile wasn't found or grunt
-2014-11-03T00:02:20.257800+00:00 app[web.1]: installing and configuring grunt, please see the Getting Started guide:
-2014-11-03T00:02:20.257819+00:00 app[web.1]: 
-2014-11-03T00:02:21.003049+00:00 heroku[web.1]: Process exited with status 99
-2014-11-03T00:02:21.016695+00:00 heroku[web.1]: State changed from starting to crashed
-2014-11-03T00:02:34.853180+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=12190c4f-39b3-4d44-be92-c7c6105fa6f9 fwd="207.244.77.139" dyno= connect= service= status=503 bytes=
-2014-11-03T00:02:35.520602+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=4ebf864f-782c-4e28-bb97-612828d5a07d fwd="207.244.77.139" dyno= connect= service= status=503 bytes=
-2014-11-03T00:03:33+00:00 heroku[slug-compiler]: Slug compilation started
-2014-11-03T00:07:50+00:00 heroku[slug-compiler]: Slug compilation finished
-2014-11-03T00:07:50.081002+00:00 heroku[api]: Deploy 28e8213 by daniel@danielstern.ca
-2014-11-03T00:07:50.081002+00:00 heroku[api]: Release v20 created by daniel@danielstern.ca
-2014-11-03T00:07:50.340405+00:00 heroku[web.1]: State changed from crashed to starting
-2014-11-03T00:07:57.385563+00:00 heroku[web.1]: Starting process with command `npm install; npm install grunt -g; npm install grunt-cli -g; grunt serve;`
-2014-11-03T00:07:59.137000+00:00 app[web.1]: npm WARN package.json karma-chrome-launcher@0.1.5 No README data
-2014-11-03T00:07:59.143210+00:00 app[web.1]: npm WARN package.json karma-phantomjs-launcher@0.1.4 No README data
-2014-11-03T00:07:59.137977+00:00 app[web.1]: npm WARN package.json karma-coffee-preprocessor@0.2.1 No README data
-2014-11-03T00:07:59.147803+00:00 app[web.1]: npm WARN package.json passport-local@0.1.6 No README data
-2014-11-03T00:08:05.893688+00:00 app[web.1]: grunt-build-control@0.1.3 node_modules/grunt-build-control
-2014-11-03T00:08:05.893694+00:00 app[web.1]: └── shelljs@0.2.6
-2014-11-03T00:08:12.936614+00:00 app[web.1]: ├── getobject@0.1.0
-2014-11-03T00:08:12.936622+00:00 app[web.1]: ├── hooker@0.2.3
-2014-11-03T00:08:12.936627+00:00 app[web.1]: ├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
-2014-11-03T00:08:12.936616+00:00 app[web.1]: ├── rimraf@2.2.8
-2014-11-03T00:08:12.936633+00:00 app[web.1]: ├── iconv-lite@0.2.11
-2014-11-03T00:08:12.936623+00:00 app[web.1]: ├── exit@0.1.2
-2014-11-03T00:08:12.936629+00:00 app[web.1]: ├── lodash@0.9.2
-2014-11-03T00:08:12.936630+00:00 app[web.1]: ├── underscore.string@2.2.1
-2014-11-03T00:08:12.936617+00:00 app[web.1]: ├── colors@0.6.2
-2014-11-03T00:08:12.936638+00:00 app[web.1]: └── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
-2014-11-03T00:08:12.936613+00:00 app[web.1]: ├── eventemitter2@0.4.14
-2014-11-03T00:08:12.936619+00:00 app[web.1]: ├── async@0.1.22
-2014-11-03T00:08:12.936634+00:00 app[web.1]: ├── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.15)
-2014-11-03T00:08:12.936601+00:00 app[web.1]: grunt@0.4.5 /app/vendor/node/lib/node_modules/grunt
-2014-11-03T00:08:12.936625+00:00 app[web.1]: ├── nopt@1.0.10 (abbrev@1.0.5)
-2014-11-03T00:08:12.936620+00:00 app[web.1]: ├── grunt-legacy-util@0.2.0
-2014-11-03T00:08:12.936626+00:00 app[web.1]: ├── minimatch@0.2.14 (lru-cache@2.5.0, sigmund@1.0.0)
-2014-11-03T00:08:12.936609+00:00 app[web.1]: ├── dateformat@1.0.2-1.2.3
-2014-11-03T00:08:12.936636+00:00 app[web.1]: ├── grunt-legacy-log@0.1.1 (underscore.string@2.3.3, lodash@2.4.1)
-2014-11-03T00:08:12.936611+00:00 app[web.1]: ├── which@1.0.5
-2014-11-03T00:08:12.936632+00:00 app[web.1]: ├── coffee-script@1.3.3
-2014-11-03T00:08:15.333204+00:00 app[web.1]: /app/vendor/node/bin/grunt -> /app/vendor/node/lib/node_modules/grunt-cli/bin/grunt
-2014-11-03T00:08:15.778211+00:00 app[web.1]: grunt-cli@0.1.13 /app/vendor/node/lib/node_modules/grunt-cli
-2014-11-03T00:08:15.778223+00:00 app[web.1]: └── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
-2014-11-03T00:08:15.778219+00:00 app[web.1]: ├── resolve@0.3.1
-2014-11-03T00:08:15.778221+00:00 app[web.1]: ├── nopt@1.0.10 (abbrev@1.0.5)
-2014-11-03T00:08:16.313124+00:00 app[web.1]: [4mRunning "serve" task[24m
-2014-11-03T00:08:16.324009+00:00 app[web.1]: 
-2014-11-03T00:08:16.368942+00:00 app[web.1]: Injecting [32mless[39m files [90m(4 files)[39m
-2014-11-03T00:08:16.369155+00:00 app[web.1]: [32m>> [39mNothing changed
-2014-11-03T00:08:16.378125+00:00 app[web.1]: 
-2014-11-03T00:08:16.378157+00:00 app[web.1]: [4mRunning "concurrent:server" (concurrent) task[24m
-2014-11-03T00:08:16.358836+00:00 app[web.1]: [90mMissing option `template`, using `dest` as template instead[39m
-2014-11-03T00:08:16.324081+00:00 app[web.1]: [4mRunning "clean:server" (clean) task[24m
-2014-11-03T00:08:16.351192+00:00 app[web.1]: 
-2014-11-03T00:08:16.351221+00:00 app[web.1]: [4mRunning "env:all" (env) task[24m
-2014-11-03T00:08:16.355783+00:00 app[web.1]: 
-2014-11-03T00:08:16.355822+00:00 app[web.1]: [4mRunning "injector:less" (injector) task[24m
-2014-11-03T00:08:17.164646+00:00 app[web.1]:         
-2014-11-03T00:08:17.164913+00:00 app[web.1]:         [31mAborted due to warnings.[39m
-2014-11-03T00:08:17.164344+00:00 app[web.1]:     
-2014-11-03T00:08:17.164346+00:00 app[web.1]:     [31mAborted due to warnings.[39m
-2014-11-03T00:08:17.164329+00:00 app[web.1]:     [33mWarning: [4mRunning "less:server" (less) task[24m
-2014-11-03T00:08:17.164336+00:00 app[web.1]:     [31m>> [39mFileError: 'bootstrap/less/bootstrap.less' wasn't found in client/app/app.less on line 1, column 1:[31m
-2014-11-03T00:08:17.164338+00:00 app[web.1]:     >> [39m1 @import 'bootstrap/less/bootstrap.less';[31m
-2014-11-03T00:08:17.164340+00:00 app[web.1]:     >> [39m2 @import 'font-awesome/less/font-awesome.less';
-2014-11-03T00:08:17.164347+00:00 app[web.1]:     
-2014-11-03T00:08:17.164342+00:00 app[web.1]:     [33mWarning: Error compiling client/app/app.less Use --force to continue.[39m
-2014-11-03T00:08:17.164348+00:00 app[web.1]:     
-2014-11-03T00:08:17.164350+00:00 app[web.1]:     Execution Time (2014-11-03 00:08:16 UTC)
-2014-11-03T00:08:17.164352+00:00 app[web.1]:     loading tasks  253ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 83%
-2014-11-03T00:08:17.164355+00:00 app[web.1]:     Total 306ms Use --force to continue.[39m
-2014-11-03T00:08:17.164353+00:00 app[web.1]:     less:server     53ms  ▇▇▇▇▇▇▇▇▇ 17%
-2014-11-03T00:08:17.166491+00:00 app[web.1]:     
-2014-11-03T00:08:17.166494+00:00 app[web.1]: 
-2014-11-03T00:08:17.166496+00:00 app[web.1]: Execution Time (2014-11-03 00:08:16 UTC)
-2014-11-03T00:08:17.179077+00:00 app[web.1]: loading tasks      131ms  ▇▇▇▇▇▇ 13%
-2014-11-03T00:08:17.179089+00:00 app[web.1]: concurrent:server  787ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 80%
-2014-11-03T00:08:17.179084+00:00 app[web.1]: serve               11ms  ▇ 1%
-2014-11-03T00:08:17.179086+00:00 app[web.1]: clean:server        28ms  ▇▇ 3%
-2014-11-03T00:08:17.179088+00:00 app[web.1]: injector:less       23ms  ▇▇ 2%
-2014-11-03T00:08:17.179091+00:00 app[web.1]: Total 985ms
-2014-11-03T00:08:17.179093+00:00 app[web.1]: 
-2014-11-03T00:08:18.074187+00:00 heroku[web.1]: Process exited with status 6
-2014-11-03T00:08:18.082029+00:00 heroku[web.1]: State changed from starting to crashed
-2014-11-03T00:08:19.536218+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=19a7ff25-6f3e-4437-8fba-740d9a2959be fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:19.889985+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=b2f71fdf-1c7c-4a90-975e-bafcb812abe3 fwd="54.82.54.5" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:19.712681+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=c31f588d-cb66-4873-b492-cd5f803aa91d fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:20.206610+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=c20795ee-8fc7-4bd2-b33d-9cd9b77ad562 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:20.563415+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=8b7f3829-db16-407f-8ea9-b0ee79d0a185 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:22.764175+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=bcf85777-6f1a-4203-b9f0-45f080680e40 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
-2014-11-03T00:08:23.172583+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=6bae0108-50fd-4fe9-bd86-8d377f73f7f3 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:12:14.833134+00:00 app[web.1]: ├── handlebars@2.0.0 (optimist@0.3.7, uglify-js@2.3.6)
+2014-11-03T00:12:16.121098+00:00 app[web.1]: npm WARN package.json karma-coffee-preprocessor@0.2.1 No README data
+2014-11-03T00:12:16.131743+00:00 app[web.1]: npm WARN package.json passport-local@0.1.6 No README data
+2014-11-03T00:12:26.340506+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=flashforum.herokuapp.com request_id=649faf65-6121-4b71-8c45-5f5af4a8db34 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:12:30.414211+00:00 app[web.1]: grunt-build-control@0.1.3 node_modules/grunt-build-control
+2014-11-03T00:12:30.414215+00:00 app[web.1]: └── shelljs@0.2.6
+2014-11-03T00:12:33.288298+00:00 app[web.1]: bower bootstrap#~3.1.1      not-cached git://github.com/twbs/bootstrap.git#~3.1.1
+2014-11-03T00:12:33.361887+00:00 app[web.1]: bower angular-resource#>=1.2.*          resolve git://github.com/angular/bower-angular-resource.git#>=1.2.*
+2014-11-03T00:12:33.289087+00:00 app[web.1]: bower jquery#~1.11.0        not-cached git://github.com/jquery/jquery.git#~1.11.0
+2014-11-03T00:12:33.283988+00:00 app[web.1]: bower json3#~3.3.1          not-cached git://github.com/bestiejs/json3.git#~3.3.1
+2014-11-03T00:12:33.287353+00:00 app[web.1]: bower angular#>=1.2.*          resolve git://github.com/angular/bower-angular.git#>=1.2.*
+2014-11-03T00:12:33.287238+00:00 app[web.1]: bower angular#>=1.2.*       not-cached git://github.com/angular/bower-angular.git#>=1.2.*
+2014-11-03T00:12:33.361824+00:00 app[web.1]: bower angular-resource#>=1.2.*       not-cached git://github.com/angular/bower-angular-resource.git#>=1.2.*
+2014-11-03T00:12:33.286046+00:00 app[web.1]: bower es5-shim#~3.0.1       not-cached git://github.com/es-shims/es5-shim.git#~3.0.1
+2014-11-03T00:12:33.405554+00:00 app[web.1]: bower angular-cookies#>=1.2.*        not-cached git://github.com/angular/bower-angular-cookies.git#>=1.2.*
+2014-11-03T00:12:33.405649+00:00 app[web.1]: bower angular-cookies#>=1.2.*           resolve git://github.com/angular/bower-angular-cookies.git#>=1.2.*
+2014-11-03T00:12:33.407115+00:00 app[web.1]: bower angular-sanitize#>=1.2.*       not-cached git://github.com/angular/bower-angular-sanitize.git#>=1.2.*
+2014-11-03T00:12:33.407169+00:00 app[web.1]: bower angular-sanitize#>=1.2.*          resolve git://github.com/angular/bower-angular-sanitize.git#>=1.2.*
+2014-11-03T00:12:33.408975+00:00 app[web.1]: bower angular-bootstrap#~0.11.0      not-cached git://github.com/angular-ui/bootstrap-bower.git#~0.11.0
+2014-11-03T00:12:33.408981+00:00 app[web.1]: bower angular-bootstrap#~0.11.0         resolve git://github.com/angular-ui/bootstrap-bower.git#~0.11.0
+2014-11-03T00:12:33.410379+00:00 app[web.1]: bower font-awesome#>=4.1.0           not-cached git://github.com/FortAwesome/Font-Awesome.git#>=4.1.0
+2014-11-03T00:12:33.410439+00:00 app[web.1]: bower font-awesome#>=4.1.0              resolve git://github.com/FortAwesome/Font-Awesome.git#>=4.1.0
+2014-11-03T00:12:33.837784+00:00 app[web.1]: bower angular-socket-io#~0.6.0          resolve git://github.com/btford/angular-socket-io.git#~0.6.0
+2014-11-03T00:12:33.840486+00:00 app[web.1]: bower angular-ui-router#~0.2.10         resolve git://github.com/angular-ui/ui-router.git#~0.2.10
+2014-11-03T00:12:33.671545+00:00 app[web.1]: bower lodash#~2.4.1                  not-cached git://github.com/lodash/lodash.git#~2.4.1
+2014-11-03T00:12:33.288378+00:00 app[web.1]: bower bootstrap#~3.1.1         resolve git://github.com/twbs/bootstrap.git#~3.1.1
+2014-11-03T00:12:33.286153+00:00 app[web.1]: bower es5-shim#~3.0.1          resolve git://github.com/es-shims/es5-shim.git#~3.0.1
+2014-11-03T00:12:33.703916+00:00 app[web.1]: bower json3#~3.3.1                     download https://github.com/bestiejs/json3/archive/v3.3.2.tar.gz
+2014-11-03T00:12:33.671633+00:00 app[web.1]: bower lodash#~2.4.1                     resolve git://github.com/lodash/lodash.git#~2.4.1
+2014-11-03T00:12:34.019130+00:00 app[web.1]: bower bootstrap#~3.1.1                 download https://github.com/twbs/bootstrap/archive/v3.1.1.tar.gz
+2014-11-03T00:12:33.843272+00:00 app[web.1]: bower angular-scenario#>=1.2.*          resolve git://github.com/angular/bower-angular-scenario.git#>=1.2.*
+2014-11-03T00:12:33.845331+00:00 app[web.1]: bower angular-mocks#>=1.2.*             resolve git://github.com/angular/bower-angular-mocks.git#>=1.2.*
+2014-11-03T00:12:33.289312+00:00 app[web.1]: bower jquery#~1.11.0           resolve git://github.com/jquery/jquery.git#~1.11.0
+2014-11-03T00:12:33.284381+00:00 app[web.1]: bower json3#~3.3.1             resolve git://github.com/bestiejs/json3.git#~3.3.1
+2014-11-03T00:12:33.837643+00:00 app[web.1]: bower angular-socket-io#~0.6.0       not-cached git://github.com/btford/angular-socket-io.git#~0.6.0
+2014-11-03T00:12:33.840233+00:00 app[web.1]: bower angular-ui-router#~0.2.10      not-cached git://github.com/angular-ui/ui-router.git#~0.2.10
+2014-11-03T00:12:33.845133+00:00 app[web.1]: bower angular-mocks#>=1.2.*          not-cached git://github.com/angular/bower-angular-mocks.git#>=1.2.*
+2014-11-03T00:12:33.927552+00:00 app[web.1]: bower es5-shim#~3.0.1                  download https://github.com/es-shims/es5-shim/archive/v3.0.2.tar.gz
+2014-11-03T00:12:33.842942+00:00 app[web.1]: bower angular-scenario#>=1.2.*       not-cached git://github.com/angular/bower-angular-scenario.git#>=1.2.*
+2014-11-03T00:12:35.678453+00:00 app[web.1]: bower angular-resource#>=1.2.*         download https://github.com/angular/bower-angular-resource/archive/v1.3.1.tar.gz
+2014-11-03T00:12:34.787951+00:00 app[web.1]: bower angular#>=1.2.*                  download https://github.com/angular/bower-angular/archive/v1.3.1.tar.gz
+2014-11-03T00:12:34.843279+00:00 app[web.1]: bower jquery#~1.11.0                   download https://github.com/jquery/jquery/archive/1.11.1.tar.gz
+2014-11-03T00:12:34.895314+00:00 app[web.1]: bower angular-bootstrap#~0.11.0        download https://github.com/angular-ui/bootstrap-bower/archive/0.11.2.tar.gz
+2014-11-03T00:12:38.370008+00:00 app[web.1]: bower angular-cookies#>=1.2.*           extract archive.tar.gz
+2014-11-03T00:12:38.249810+00:00 app[web.1]: bower angular-mocks#>=1.2.*            download https://github.com/angular/bower-angular-mocks/archive/v1.3.1.tar.gz
+2014-11-03T00:12:38.357735+00:00 app[web.1]: bower json3#~3.3.1                      extract archive.tar.gz
+2014-11-03T00:12:38.332930+00:00 app[web.1]: bower es5-shim#~3.0.1                   extract archive.tar.gz
+2014-11-03T00:12:38.488524+00:00 app[web.1]: bower jquery#~1.11.0                    extract archive.tar.gz
+2014-11-03T00:12:38.650736+00:00 app[web.1]: bower angular-mocks#>=1.2.*             extract archive.tar.gz
+2014-11-03T00:12:36.414907+00:00 app[web.1]: bower angular-sanitize#>=1.2.*         download https://github.com/angular/bower-angular-sanitize/archive/v1.3.1.tar.gz
+2014-11-03T00:12:39.164845+00:00 app[web.1]: bower angular#>=1                    not-cached git://github.com/angular/bower-angular.git#>=1
+2014-11-03T00:12:39.173312+00:00 app[web.1]: bower angular-mocks#>=1.2.*            resolved git://github.com/angular/bower-angular-mocks.git#1.3.1
+2014-11-03T00:12:39.164905+00:00 app[web.1]: bower angular#>=1                       resolve git://github.com/angular/bower-angular.git#>=1
+2014-11-03T00:12:39.091186+00:00 app[web.1]: bower angular-sanitize#>=1.2.*         resolved git://github.com/angular/bower-angular-sanitize.git#1.3.1
+2014-11-03T00:12:38.925650+00:00 app[web.1]: bower font-awesome#>=4.1.0              extract archive.tar.gz
+2014-11-03T00:12:37.219292+00:00 app[web.1]: bower angular-socket-io#~0.6.0         download https://github.com/btford/angular-socket-io/archive/v0.6.0.tar.gz
+2014-11-03T00:12:39.084641+00:00 app[web.1]: bower angular-cookies#>=1.2.*          resolved git://github.com/angular/bower-angular-cookies.git#1.3.1
+2014-11-03T00:12:38.331497+00:00 app[web.1]: bower angular-bootstrap#~0.11.0         extract archive.tar.gz
+2014-11-03T00:12:37.190445+00:00 app[web.1]: bower lodash#~2.4.1                    download https://github.com/lodash/lodash/archive/2.4.1.tar.gz
+2014-11-03T00:12:38.494725+00:00 app[web.1]: bower angular-socket-io#~0.6.0          extract archive.tar.gz
+2014-11-03T00:12:38.360625+00:00 app[web.1]: bower angular-sanitize#>=1.2.*          extract archive.tar.gz
+2014-11-03T00:12:38.617650+00:00 app[web.1]: bower angular-scenario#>=1.2.*          extract archive.tar.gz
+2014-11-03T00:12:38.773665+00:00 app[web.1]: bower bootstrap#~3.1.1                  extract archive.tar.gz
+2014-11-03T00:12:37.743721+00:00 app[web.1]: bower angular-scenario#>=1.2.*         download https://github.com/angular/bower-angular-scenario/archive/v1.3.1.tar.gz
+2014-11-03T00:12:37.216457+00:00 app[web.1]: bower angular-ui-router#~0.2.10        download https://github.com/angular-ui/ui-router/archive/0.2.11.tar.gz
+2014-11-03T00:12:38.353167+00:00 app[web.1]: bower angular-resource#>=1.2.*          extract archive.tar.gz
+2014-11-03T00:12:39.055100+00:00 app[web.1]: bower angular-socket-io#~0.6.0     invalid-meta angular-socket-io is missing "ignore" entry in bower.json
+2014-11-03T00:12:39.160373+00:00 app[web.1]: bower angular-bootstrap#~0.11.0        resolved git://github.com/angular-ui/bootstrap-bower.git#0.11.2
+2014-11-03T00:12:39.289238+00:00 app[web.1]: bower angular#>=1                      download https://github.com/angular/bower-angular/archive/v1.3.1.tar.gz
+2014-11-03T00:12:39.078711+00:00 app[web.1]: bower angular-resource#>=1.2.*         resolved git://github.com/angular/bower-angular-resource.git#1.3.1
+2014-11-03T00:12:37.196120+00:00 app[web.1]: bower font-awesome#>=4.1.0             download https://github.com/FortAwesome/Font-Awesome/archive/v4.2.0.tar.gz
+2014-11-03T00:12:37.095283+00:00 app[web.1]: bower angular-cookies#>=1.2.*          download https://github.com/angular/bower-angular-cookies/archive/v1.3.1.tar.gz
+2014-11-03T00:12:38.474451+00:00 app[web.1]: bower angular#>=1.2.*                   extract archive.tar.gz
+2014-11-03T00:12:38.837450+00:00 app[web.1]: bower angular-bootstrap#~0.11.0    invalid-meta angular-bootstrap is missing "ignore" entry in bower.json
+2014-11-03T00:12:38.644232+00:00 app[web.1]: bower lodash#~2.4.1                     extract archive.tar.gz
+2014-11-03T00:12:39.972241+00:00 app[web.1]: bower angular-socket-io#~0.6.0         resolved git://github.com/btford/angular-socket-io.git#0.6.0
+2014-11-03T00:12:38.666169+00:00 app[web.1]: bower angular-ui-router#~0.2.10         extract archive.tar.gz
+2014-11-03T00:12:42.172194+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=flashforum.herokuapp.com request_id=5f06a570-662f-4691-a0b6-6778ea63a70c fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:12:39.521660+00:00 app[web.1]: bower angular#>=1                       extract archive.tar.gz
+2014-11-03T00:12:39.979743+00:00 app[web.1]: bower angular#~1.2.6                 not-cached git://github.com/angular/bower-angular.git#~1.2.6
+2014-11-03T00:12:41.116422+00:00 app[web.1]: bower angular#~1.2.6                    extract archive.tar.gz
+2014-11-03T00:12:40.660318+00:00 app[web.1]: bower angular#~1.2.6                   download https://github.com/angular/bower-angular/archive/v1.2.26.tar.gz
+2014-11-03T00:12:39.979796+00:00 app[web.1]: bower angular#~1.2.6                    resolve git://github.com/angular/bower-angular.git#~1.2.6
+2014-11-03T00:12:41.897611+00:00 app[web.1]: bower angular#>=1                      resolved git://github.com/angular/bower-angular.git#1.3.1
+2014-11-03T00:12:41.696097+00:00 app[web.1]: bower angular#>=1.2.*                  resolved git://github.com/angular/bower-angular.git#1.3.1
+2014-11-03T00:12:41.446728+00:00 app[web.1]: bower angular-scenario#>=1.2.*         resolved git://github.com/angular/bower-angular-scenario.git#1.3.1
+2014-11-03T00:12:42.104771+00:00 app[web.1]: bower angular#~1.2.6               invalid-meta angular is missing "ignore" entry in bower.json
+2014-11-03T00:12:43.484529+00:00 app[web.1]: bower angular#~1.2.6                   resolved git://github.com/angular/bower-angular.git#1.2.26
+2014-11-03T00:12:42.088840+00:00 app[web.1]: bower es5-shim#~3.0.1                  resolved git://github.com/es-shims/es5-shim.git#3.0.2
+2014-11-03T00:12:46.911890+00:00 app[web.1]: bower angular-ui-router#~0.2.10        resolved git://github.com/angular-ui/ui-router.git#0.2.11
+2014-11-03T00:12:46.762340+00:00 app[web.1]: bower json3#~3.3.1                     resolved git://github.com/bestiejs/json3.git#3.3.2
+2014-11-03T00:12:50.780696+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2014-11-03T00:12:50.781001+00:00 heroku[web.1]: Stopping process with SIGKILL
+2014-11-03T00:12:47.659662+00:00 app[web.1]: bower lodash#~2.4.1                    resolved git://github.com/lodash/lodash.git#2.4.1
+2014-11-03T00:12:51.934207+00:00 heroku[web.1]: Process exited with status 137
+2014-11-03T00:12:51.943966+00:00 heroku[web.1]: State changed from starting to crashed
+2014-11-03T00:12:52.897566+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=5ca07e20-2dd4-4dab-adb1-062d0c9713e8 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:12:53.228292+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=06bbe8ce-f7b6-43f6-8077-df088b09a20b fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:12:53.836844+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=245751a1-5888-49a8-805a-cb438daf9e15 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:14:21.179145+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=flashforum.herokuapp.com request_id=944668b5-9e1a-4d55-9212-363bb7f2772b fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
+2014-11-03T00:14:22.050341+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=c157f862-8e50-42b2-ba0a-c60ea9743fa2 fwd="207.244.78.11" dyno= connect= service= status=503 bytes=
