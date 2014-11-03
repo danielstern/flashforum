@@ -1,1 +1,1 @@
-web: npm install; npm install grunt -g; npm install grunt-cli -g; grunt serve;
+web: npm install -g bower; npm install; bower install; npm install grunt -g; npm install grunt-cli -g; grunt serve;
