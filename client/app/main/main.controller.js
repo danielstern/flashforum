@@ -31,7 +31,7 @@ angular.module('flashforumApp')
       if(!$scope.thread.name) {
         return;
       }
-      $http.post('/api/things', { name: $scope.newThing, owner:Auth.getCurrentUser() });
+      $http.post('/api/threads', { name: $scope.thread.name, owner:Auth.getCurrentUser() });
       $state.go('thread',{name:$scope.thread.name});
 
     }
