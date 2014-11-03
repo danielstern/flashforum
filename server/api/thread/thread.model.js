@@ -7,7 +7,9 @@ var ThreadSchema = new Schema({
   name: String,
   info: String,
   active: Boolean,
-  owner: Object
+  owner: Object,
+  description: String,
+  tagline: String
 });
 
 module.exports = mongoose.model('Thread', ThreadSchema);

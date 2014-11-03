@@ -3,13 +3,14 @@ div(ng-include='"components/navbar/navbar.html"')
 header#banner.hero-unit
   .container
     h1 {{thread.name}}
+    h2 {{thread.tagline}}
 
 .container
   .row
-    .col-lg-12
-      //- h1.page-header {{thread.name}}
-      h2 {{thread.title}}
+    .col-sm-8
+      h1.page-header {{thread.name}}
       p {{thread.description}}
+      
       div.media-element(ng-repeat='post in posts')
         p
           div 
@@ -18,12 +19,23 @@ header#banner.hero-unit
             {{post.name}}
           button.close(type='button', ng-click='deletePost(post)') ×
 
-  form.thing-form
-    label Your Thoughts
-    p.input-group
-      input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
-      span.input-group-btn
-        button.btn.btn-primary(type='submit', ng-click='addPost()') Post
+      form.thing-form
+        label Your Thoughts
+        p.input-group
+          input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
+          span.input-group-btn
+            button.btn.btn-primary(type='submit', ng-click='addPost()') Post
+
+    .col-sm-4
+      h3 Edit
+      div
+        h4 Name 
+        input(class='form-control' ng-model='thread.name')
+        h4 Tagline
+        input(class='form-control' ng-model='thread.tagline')
+        h4 What is your story / question / topic?
+        textarea(class='form-control' ng-model='thread.description')
+       
 
 footer.footer
   .container
