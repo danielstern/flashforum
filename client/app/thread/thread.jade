@@ -10,20 +10,20 @@ header#banner.hero-unit
       //- h1.page-header {{thread.name}}
       h2 {{thread.title}}
       p {{thread.description}}
-      div.media-element(ng-repeat='thing in awesomeThings')
+      div.media-element(ng-repeat='post in posts')
         p
           div 
-            a(ui-sref="user({id:thing.owner.name})")
-              {{thing.owner.name}} > 
-            {{thing.name}}
-          button.close(type='button', ng-click='deleteThing(thing)') ×
+            a(ui-sref="user({id:post.owner.name})")
+              {{post.owner.name}} > 
+            {{post.name}}
+          button.close(type='button', ng-click='deletePost(post)') ×
 
   form.thing-form
     label Your Thoughts
     p.input-group
       input.form-control(type='text', placeholder='Add a new thing here.', ng-model='newThing')
       span.input-group-btn
-        button.btn.btn-primary(type='submit', ng-click='addThing()') Post
+        button.btn.btn-primary(type='submit', ng-click='addPost()') Post
 
 footer.footer
   .container
