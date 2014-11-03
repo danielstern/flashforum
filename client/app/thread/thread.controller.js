@@ -2,13 +2,8 @@
 
 angular.module('flashforumApp')
   .controller('ThreadCtrl', function ($scope, $http, socket,Auth,$state,$stateParams) {
-    $scope.message = 'Hello';
-    // $scope.thread = {
-    // 	name:$stateParams.name
-    // }
 
     $http.get('api/threads/'+$stateParams.name).success(function(threads){
-    	// console.log("threads?",threads);
     	$scope.thread = threads[0];
     })
 
@@ -26,12 +21,12 @@ angular.module('flashforumApp')
       $scope.newThing = '';
     };
 
-    $scope.deleteThing = function(thing) {
-      $http.delete('/api/posts/' + thing._id);
+    $scope.deletePost = function(post) {
+      $http.delete('/api/posts/' + post._id);
     };
 
     $scope.$on('$destroy', function () {
-      socket.unsyncUpdates('thing');
+      socket.unsyncUpdates('post');
     });
 
   });

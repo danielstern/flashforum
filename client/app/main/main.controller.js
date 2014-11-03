@@ -31,5 +31,13 @@ angular.module('flashforumApp')
 
     }
 
+    $scope.deleteThread = function(thread) {
+      $http.delete('/api/threads/' + thread._id);
+    };
+
+    $scope.$on('$destroy', function () {
+      socket.unsyncUpdates('thread');
+    });
+
 
   });
