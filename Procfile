@@ -1,0 +1,1 @@
+web: npm install; npm install grunt -g; npm install grunt-cli -g; grunt serve;
