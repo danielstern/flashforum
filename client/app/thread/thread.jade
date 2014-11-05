@@ -26,7 +26,8 @@ header#banner.hero-unit
           span.input-group-btn
             button.btn.btn-primary(type='submit', ng-click='addPost()') Post
 
-    .col-sm-4
+    .col-sm-4(ng-if="thread.owner._id === Auth.getCurrentUser()._id")
+      //- p owner? {{thread.owner}} {{thread}}
       h3 Edit
       div
         h4 Name 
@@ -42,7 +43,3 @@ footer.footer
   .container
     p
       | Flash Forum 0.1
-      //- = ' | '
-      //- a(href='https://twitter.com/tyhenkel') @tyhenkel
-      //- = ' | '
-      //- a(href='https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open') Issues

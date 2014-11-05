@@ -1,3 +1,5 @@
+@em: 16px;
+
 .thing-form {
   margin: 20px 0;
 }
@@ -20,6 +22,21 @@
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     background: #4393B9;
+}
+
+.input-large {
+    padding: @em;
+    font-size: @em;
+    height: 3*@em;
+}
+
+.new-forum-post {
+    width: @em * 60;
+    margin: auto;
+    button {
+        height: 3*@em;
+        font-size: @em;
+    }
 }
 
 .footer {

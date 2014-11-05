@@ -5,10 +5,17 @@ header#banner.hero-unit
     h1 Flash Forum
     p Stupid Fast Forum
     img(src='http://www.apres.co.uk/ebay/img/badges/mrt/mrT_2.jpg', width=100, alt='STUPID fast')
+
+    form.new-forum-post
+      label
+      p.input-group
+        input.input-large.form-control(type='text', placeholder='Name your new forum!', ng-model='thread.name')
+        span.input-group-btn
+          button.btn.btn-success(type='submit', ng-click='addThread()') New Thread
 .container
   .row
     .col-sm-8
-      h1.page-header latest threads
+      h2.page-header latest threads
       div.media-element(ng-repeat='thread in threads')
         div 
           a(ui-sref="thread({name:thread.shortname})")
@@ -20,13 +27,8 @@ header#banner.hero-unit
             {{thread.description}}
           button.close(type='button', ng-click='deleteThread(thread)') ×    
     .col-sm-4
-      h1.page-header New Thread
-      form.thing-form
-        label
-        p.input-group
-          input.form-control(type='text', placeholder='Name your thread, ser', ng-model='thread.name')
-          span.input-group-btn
-            button.btn.btn-primary(type='submit', ng-click='addThread()') New Thread
+      h2.page-header Your threads
+
      
 
 footer.footer

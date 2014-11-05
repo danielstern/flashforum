@@ -1,7 +1,9 @@
 'use strict';
 
 angular.module('flashforumApp')
-  .controller('ThreadCtrl', function ($scope, $http, socket,Auth,$state,$stateParams) {
+
+  .controller('ThreadCtrl', function ($scope, $http, socket,Auth,$state,$stateParams,SocketBase) {
+
 
     $http.get('/api/posts/thread/'+$stateParams.name).success(function(posts) {
       $scope.posts = posts;
@@ -23,7 +25,9 @@ angular.module('flashforumApp')
 
 
     $scope.updateThread = function() {
-      $http.patch('api/threads/'+$scope.thread._id,$scope.thread);
+      var threadSocket = new SocketBase('api/threads/'+$scope.thread._id);
+      threadSocket.publish($scope.thread);
+      // $http.patch('api/threads/'+$scope.thread._id,$scope.thread);
     }
 
     $scope.$watch("thread",function(thread){

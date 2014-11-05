@@ -9,6 +9,8 @@ angular.module('flashforumApp')
       socket.syncUpdates('thread', $scope.threads);
     });
 
+    
+
     $scope.addThread = function(){
       if(!$scope.thread.name) {
         return;
