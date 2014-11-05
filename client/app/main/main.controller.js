@@ -16,7 +16,6 @@ angular.module('flashforumApp')
       $scope.thread.shortname = $scope.thread.name.toLowerCase().replace(/[\s_]/g,'-').replace(/[\?\!\(\)\@\$]/g,'');
       $http.post('/api/threads', { name: $scope.thread.name, shortname: $scope.thread.shortname,owner:Auth.getCurrentUser() });
       $state.go('thread',{name:$scope.thread.shortname});
-
     }
 
     $scope.deleteThread = function(thread) {

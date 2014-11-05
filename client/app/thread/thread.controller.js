@@ -23,13 +23,11 @@ angular.module('flashforumApp')
 
 
     $scope.updateThread = function() {
-      // console.log("Updating thread...",$scope.thread);
       $http.patch('api/threads/'+$scope.thread._id,$scope.thread);
     }
 
     $scope.$watch("thread",function(thread){
       if (!thread) return;
-      // thread.ts = new Date().getTime();
       $scope.updateThread();   
     },true);
 

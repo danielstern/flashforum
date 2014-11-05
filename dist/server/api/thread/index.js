@@ -6,7 +6,8 @@ var controller = require('./thread.controller');
 var router = express.Router();
 
 router.get('/', controller.index);
-router.get('/:name', controller.show);
+router.get('/:id', controller.show);
+router.get('/shortname/:id', controller.showByShortname);
 router.post('/', controller.create);
 router.put('/:id', controller.update);
 router.patch('/:id', controller.update);

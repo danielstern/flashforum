@@ -12,7 +12,7 @@ exports.index = function(req, res) {
 };
 
 exports.indexByThreadName = function(req, res) {
-  Post.find({"$where":"function(){if (this.thread) {return this.thread.name === '"+ req.params.name +"'}}"},function (err, posts) {
+  Post.find({"$where":"function(){if (this.thread) {return this.thread.shortname === '"+ req.params.name +"'}}"},function (err, posts) {
     if(err) { return handleError(res, err); }
     return res.json(200, posts);
   });

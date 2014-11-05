@@ -6,6 +6,7 @@ var mongoose = require('mongoose'),
 var ThreadSchema = new Schema({
   name: String,
   info: String,
+  shortname: String,
   active: Boolean,
   owner: Object,
   description: String,
