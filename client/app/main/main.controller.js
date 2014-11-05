@@ -16,7 +16,7 @@ angular.module('flashforumApp')
         return;
       }
       $scope.thread.shortname = $scope.thread.name.toLowerCase().replace(/[\s_]/g,'-').replace(/[\?\!\(\)\@\$]/g,'');
-      $http.post('/api/threads', { name: $scope.thread.name, shortname: $scope.thread.shortname,owner:Auth.getCurrentUser() });
+      $http.post('/api/threads', { name: $scope.thread.name, shortname: $scope.thread.shortname,owner:Auth.getCurrentUserOrNewAccount() });
       $state.go('thread',{name:$scope.thread.shortname});
     }
 

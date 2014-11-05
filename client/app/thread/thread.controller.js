@@ -39,7 +39,7 @@ angular.module('flashforumApp')
       if($scope.newThing === '') {
         return;
       }
-      $http.post('/api/posts', { name: $scope.newThing, owner:Auth.getCurrentUser(), thread:$scope.thread });
+      $http.post('/api/posts', { name: $scope.newThing, owner:Auth.getCurrentUserOrNewAccount(), thread:$scope.thread });
       $scope.newThing = '';
     };
 

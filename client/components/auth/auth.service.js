@@ -97,6 +97,24 @@ angular.module('flashforumApp')
        *
        * @return {Object} user
        */
+      getCurrentUserOrNewAccount: function() {
+        console.log("Auth or create...",currentUser);
+        if (currentUser._id) {
+          return currentUser;
+        } else {
+          var tempEmail = "user"+Math.floor(Math.random()*2e8)+"@gmail.com";
+          var tempName = tempEmail;
+          var tempPassword = "pass";
+          var newUser = {
+            name:tempName,
+            email:tempEmail,
+            password:tempPassword,
+          };
+
+          this.createUser(newUser);
+          return newUser;
+        }
+      },
       getCurrentUser: function() {
         return currentUser;
       },
