@@ -18,5 +18,14 @@ angular.module('flashforumApp')
         templateUrl: 'app/account/settings/settings.html',
         controller: 'SettingsCtrl',
         authenticate: true
-      });
+      })
+      .state('password', {
+        url: '/send-password',
+        // templateUrl: 'app/account/settings/settings.html',
+        template: "Your password has been reset and a temporary password has been sent to your email address.",
+        controller: function(Auth,$http){
+          $http.post("api/users/resetPassword",Auth.getCurrentUser())
+        },
+        authenticate: true
+      })
   });

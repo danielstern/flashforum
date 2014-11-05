@@ -10,6 +10,7 @@ angular.module('flashforumApp')
       var _user = new SocketBase('api/users/');
       _user.publish(user);
       console.log("updated");
+      alert("Your info has been updated");
     }
 
     $scope.changePassword = function(form) {
