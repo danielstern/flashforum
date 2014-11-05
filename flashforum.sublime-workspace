@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"ob",
+				"obj2"
+			],
+			[
+				"are",
+				"areEqual"
+			],
+			[
+				"time",
+				"timeNow"
+			],
+			[
+				"st",
+				"stateParams"
+			],
+			[
+				"get",
+				"getCurrentUser"
+			],
+			[
 				"hex",
 				"hexToRgb"
 			],
@@ -56,10 +76,26 @@
 	"buffers":
 	[
 		{
-			"file": "client/app/app.js",
+			"file": "client/app/thread/thread.jade",
 			"settings":
 			{
-				"buffer_size": 1503,
+				"buffer_size": 1444,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/app/thread/thread.controller.js",
+			"settings":
+			{
+				"buffer_size": 1399,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/components/socket/socket.service.js",
+			"settings":
+			{
+				"buffer_size": 3712,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,15 +103,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 3029,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 17237,
+				"buffer_size": 3021,
 				"line_ending": "Unix"
 			}
 		}
@@ -83,9 +111,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 242.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -95,15 +127,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"package in",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -124,10 +152,74 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/flashforum"
+		"/D/Projects/flashforum",
+		"/D/Projects/flashforum/client",
+		"/D/Projects/flashforum/client/app",
+		"/D/Projects/flashforum/server",
+		"/D/Projects/flashforum/server/api",
+		"/D/Projects/flashforum/server/api/post",
+		"/D/Projects/flashforum/server/api/thread",
+		"/D/Projects/flashforum/server/components"
 	],
 	"file_history":
 	[
+		"/D/Projects/flashforum/server/api/post/post.model.js",
+		"/D/Projects/flashforum/server/api/thread/thread.model.js",
+		"/D/Projects/flashforum/client/bower_components/angular-socket-io/socket.spec.js",
+		"/D/Projects/flashforum/client/bower_components/angular-socket-io/socket.js",
+		"/D/Projects/flashforum/server/config/socketio.js",
+		"/D/Projects/flashforum/server/config/seed.js",
+		"/D/Projects/flashforum/client/components/socket/socket.service.js",
+		"/D/Projects/flashforum/server/api/user/user.model.js",
+		"/D/Projects/flashforum/client/bower_components/jquery/src/core/ready.js",
+		"/D/Projects/flashforum/client/robots.txt",
+		"/D/Projects/flashforum/client/bower_components/es5-shim/CHANGES",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js",
+		"/D/Projects/flashforum/client/bower_components/jquery/src/core/parseHTML.js",
+		"/D/Projects/flashforum/client/bower_components/jquery/src/manipulation/var/rcheckableType.js",
+		"/D/Projects/flashforum/bower.json",
+		"/D/Projects/flashforum/client/app/main/main.jade",
+		"/D/Projects/flashforum/client/app/main/main.controller.js",
+		"/D/Projects/flashforum/client/app/thread/thread.js",
+		"/D/Projects/flashforum/client/app/thread/thread.less",
+		"/D/Projects/flashforum/server/api/thing/thing.model.js",
+		"/D/Projects/flashforum/client/app/main/main.js",
+		"/D/Projects/flashforum/client/bower_components/angular-bootstrap/ui-bootstrap.js",
+		"/D/Projects/flashforum/flashforum.sublime-project",
+		"/D/Projects/flashforum/client/app/account/signup/signup.jade",
+		"/D/Projects/flashforum/client/app/thread/thread.controller.js",
+		"/D/Projects/flashforum/client/app/thread/thread.jade",
+		"/D/Projects/flashforum/server/api/post/post.controller.js",
+		"/D/Projects/flashforum/e2e/main/main.po.js",
+		"/D/Projects/flashforum/server/app.js",
+		"/D/Projects/flashforum/package.json",
+		"/D/Projects/flashforum/server/api/post/index.js",
+		"/D/Projects/flashforum/server/api/thread/index.js",
+		"/D/Projects/flashforum/server/api/thread/thread.controller.js",
+		"/D/Projects/flashforum/server/api/thread/thread.socket.js",
+		"/D/Projects/flashforum/.tmp/app/main/main.html",
+		"/D/Projects/flashforum/client/app/account/account.js",
+		"/D/Projects/flashforum/client/app/app.js",
+		"/D/Projects/flashforum/client/app/account/login/login.controller.js",
+		"/D/Projects/flashforum/server/api/thing/thing.controller.js",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/theme.less",
+		"/D/Projects/flashforum/server/config/environment/test.js",
+		"/D/Projects/flashforum/client/components/navbar/navbar.controller.js",
+		"/D/Projects/flashforum/client/components/navbar/navbar.jade",
+		"/D/Projects/flashforum/.tmp/components/navbar/navbar.html",
+		"/D/Projects/flashforum/npm-debug.log",
+		"/D/Projects/flashforum/server/config/environment/production.js",
+		"/D/Projects/flashforum/.gitignore",
+		"/D/Projects/flashforum/x",
+		"/D/Projects/flashforum/Gruntfile.js",
+		"/D/Projects/flashforum/dist/server/config/express.js",
+		"/D/Projects/flashforum/server/config/express.js",
+		"/D/Projects/flashforum/protractor.conf.js",
+		"/D/Projects/flashforum/Procfile",
+		"/D/Projects/flashforum/server/config/environment/index.js",
+		"/D/Projects/flashforum/server/config/environment/development.js",
+		"/D/Projects/flashforum/client/bower_components/jquery/src/css/hiddenVisibleSelectors.js",
+		"/D/Projects/flashforum/server/config/local.env.js",
 		"/D/Projects/flashforum/client/components/mongoose-error/mongoose-error.directive.js",
 		"/D/Projects/flashforum/node_modules/jade/node_modules/monocle/monocle.js",
 		"/D/Projects/flashforum/node_modules/composable-middleware/lib/middleware-common-object.js",
@@ -192,6 +284,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"schema",
+			"crypto",
+			"'socket'",
+			"\"socket\"",
+			"socket",
+			"syncUpdates",
+			"socket",
+			"thread",
+			"      console.log(\"Got posts...\",posts);\nthread",
+			"$where",
+			"addThread",
+			"new thread",
+			"stateProvi",
+			"state",
+			"ui.rou",
+			"ui-rou",
+			"awesomethin",
+			"favicon",
+			"favico",
+			"app.us",
+			"9000",
+			".port",
+			"config.port",
+			".listen(",
+			".listen",
+			"server/app.",
 			"mongodb://",
 			"mongodb:",
 			"firefox an",
@@ -278,24 +396,54 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "client/app/app.js",
+					"file": "client/app/thread/thread.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1503,
+						"buffer_size": 1444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1084,
-								1084
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/app/thread/thread.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1092,
+								1092
 							]
 						],
 						"settings":
@@ -304,28 +452,58 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 108.0,
+						"translation.x": 208.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "package.json",
+					"buffer": 2,
+					"file": "client/components/socket/socket.service.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3029,
+						"buffer_size": 3712,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2801,
-								2801
+								3263,
+								3263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -335,37 +513,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 846.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5128,
-								5128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2040.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -421,6 +569,74 @@
 		"selected_items":
 		[
 			[
+				"packa",
+				"package.json"
+			],
+			[
+				"socket.ser",
+				"client\\components\\socket\\socket.service.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"thread",
+				"client\\app\\thread\\thread.jade"
+			],
+			[
+				"threadc",
+				"client\\app\\thread\\thread.controller.js"
+			],
+			[
+				"mc",
+				"client\\app\\main\\main.controller.js"
+			],
+			[
+				"main.",
+				"client\\app\\main\\main.jade"
+			],
+			[
+				"main.c",
+				"client\\app\\main\\main.controller.js"
+			],
+			[
+				"thread.j",
+				"client\\app\\thread\\thread.jade"
+			],
+			[
+				"maincon",
+				"client\\app\\main\\main.controller.js"
+			],
+			[
+				"main",
+				"client\\app\\main\\main.jade"
+			],
+			[
+				"f",
+				"flashforum.sublime-project"
+			],
+			[
+				"thing",
+				"server\\api\\thing\\thing.model.js"
+			],
+			[
+				"nav",
+				"client\\components\\navbar\\navbar.jade"
+			],
+			[
+				"navn",
+				"client\\components\\navbar\\navbar.controller.js"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"environm",
+				"server\\config\\environment\\production.js"
+			],
+			[
 				"main.le",
 				"app\\less\\main.less"
 			],
@@ -449,16 +665,8 @@
 				"app\\index.html"
 			],
 			[
-				"grunt",
-				"Gruntfile.js"
-			],
-			[
 				".less",
 				"app\\less\\range.less"
-			],
-			[
-				"packa",
-				"package.json"
 			]
 		],
 		"width": 0.0

@@ -63,7 +63,6 @@ angular.module('flashforumApp')
                         if (oldItem) {
 
                             if (item.ts - oldItem.ts < 10 && item.ts - oldItem.ts > 0) {
-                                console.log("Super close collision. Stupidfy for now.");
                                 return;
                             }
 

@@ -8,8 +8,9 @@ angular.module('flashforumApp')
       socket.syncUpdates('post', $scope.posts);
     });
 
-    $http.get('api/threads/'+$stateParams.name).success(function(threads){
+    $http.get('api/threads/shortname/'+$stateParams.name).success(function(threads){
       $scope.threads = threads;
+      console.log("Threads?",threads,$stateParams);
 
       socket.syncUpdates('thread', $scope.threads);
     });

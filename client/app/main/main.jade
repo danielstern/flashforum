@@ -11,7 +11,7 @@ header#banner.hero-unit
       h1.page-header latest threads
       div.media-element(ng-repeat='thread in threads')
         div 
-          a(ui-sref="thread({name:thread.name})")
+          a(ui-sref="thread({name:thread.shortname})")
             h2
               {{thread.name}}
           h3

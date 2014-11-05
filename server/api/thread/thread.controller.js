@@ -13,17 +13,23 @@ exports.index = function(req, res) {
 
 // Get a single thread
 exports.show = function(req, res) {
-  // Thread.findById(req.params.id, function (err, thread) {
-  //   if(err) { return handleError(res, err); }
-  //   if(!thread) { return res.send(404); }
-  //   return res.json(thread);
-  // });
-
-  Thread.find({name:req.params.name}, function (err, thread) {
-    if(err) { return handleError(res, err); }
-    if(!thread) { return res.send(404); }
+  console.log("Find by id...",req.params);
+  Thread.findById(req.params.id, function (err, thread) {
+    if(err) { 
+      console.log("Err?",err);
+      return handleError(res, err); 
+    }
     return res.json(thread);
-  });
+  });  
+};
+
+exports.showByShortname = function(req, res) {
+  console.log("Find by id...",req.params);
+    Thread.find({shortname:req.params.id}, function (err, thread) {
+        if(err) { return handleError(res, err); }
+        if(!thread) { return res.send(404); }
+        return res.json(thread);
+      });
 };
 
 // Creates a new thread in the DB.
