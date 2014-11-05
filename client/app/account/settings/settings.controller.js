@@ -1,8 +1,16 @@
 'use strict';
 
 angular.module('flashforumApp')
-  .controller('SettingsCtrl', function ($scope, User, Auth) {
+  .controller('SettingsCtrl', function ($scope, User, Auth,SocketBase) {
     $scope.errors = {};
+
+    $scope.user = angular.copy(Auth.getCurrentUser());
+
+    $scope.updateUser = function(user) {
+      var _user = new SocketBase('api/users/');
+      _user.publish(user);
+      console.log("updated");
+    }
 
     $scope.changePassword = function(form) {
       $scope.submitted = true;
