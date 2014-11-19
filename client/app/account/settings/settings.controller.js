@@ -8,11 +8,12 @@ angular.module('flashforumApp')
 
     $scope.updateUser = function(user) {
       var _user = new SocketBase('api/users/');
-      console.log("Publuishig user...",user);
+      // console.log("Publuishig user...",user);
       _user.publish(user);
-      console.log("updated");
+      // console.log("updated");
       alert("Your info has been updated");
       window.location.reload();
+      // Auth.currentUser = user;
     }
 
     $scope.changePassword = function(form) {
