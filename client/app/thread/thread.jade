@@ -26,7 +26,7 @@ header#banner.hero-unit
           span.input-group-btn
             button.btn.btn-primary(type='submit', ng-click='addPost()') Post
 
-    .col-sm-4(ng-if="thread.owner._id === Auth.getCurrentUser()._id")
+    .col-sm-4(ng-if="thread.owner.id === Auth.getCurrentUser().id")
       //- p owner? {{thread.owner}} {{thread}}
       h3 Edit
       div

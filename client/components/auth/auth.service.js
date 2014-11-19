@@ -113,6 +113,7 @@ angular.module('flashforumApp')
             name:tempName,
             email:tempEmail,
             password:tempPassword,
+            id: getDummyUsername()+getDummyUsername()
           };
 
           this.createUser(newUser);
@@ -120,7 +121,7 @@ angular.module('flashforumApp')
           // .then(function(){
             // newUser.id = currentUser.id;
           // })
-          return currentUser;
+          return angular.extend(currentUser,newUser);
         }
       },
       getCurrentUser: function() {

@@ -23,9 +23,11 @@ header#banner.hero-unit
               {{thread.name}}
           h3
             {{thread.tagline}}
+          h5
+            {{thread.owner.name}}
           p
             {{thread.description}}
-          button.close(type='button', ng-click='deleteThread(thread)') ×    
+          button.btn.btn-danger.delete(type='button', ng-click='deleteThread(thread)',ng-if="getCurrentUser().id == thread.owner.id || Auth.isAdmin()") ×    
     //- .col-sm-4
     //-   h2.page-header Your threads
 
