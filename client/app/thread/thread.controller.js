@@ -30,10 +30,10 @@ angular.module('flashforumApp')
       // $http.patch('api/threads/'+$scope.thread._id,$scope.thread);
     }
 
-    $scope.$watch("thread",function(thread){
-      if (!thread) return;
-      $scope.updateThread();   
-    },true);
+    // $scope.$watch("thread",function(thread){
+      // if (!thread) return;
+      // $scope.updateThread();   
+    // },true);
 
     $scope.addPost = function() {
       if($scope.newThing === '') {

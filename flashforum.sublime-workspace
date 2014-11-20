@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getDummyUsername"
+			],
+			[
+				"temp",
+				"tempPassword"
+			],
+			[
 				"crea",
 				"createUser"
 			],
 			[
 				"new",
 				"newUser"
-			],
-			[
-				"temp",
-				"tempEmail"
 			],
 			[
 				"old",
@@ -38,10 +42,6 @@
 			[
 				"st",
 				"stateParams"
-			],
-			[
-				"get",
-				"getCurrentUser"
 			],
 			[
 				"hex",
@@ -96,10 +96,26 @@
 	"buffers":
 	[
 		{
-			"file": "client/app/account/settings/settings.jade",
+			"file": "server/api/user/user.model.js",
 			"settings":
 			{
-				"buffer_size": 1648,
+				"buffer_size": 3101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/app/main/main.less",
+			"settings":
+			{
+				"buffer_size": 975,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/app/app.less",
+			"settings":
+			{
+				"buffer_size": 502,
 				"line_ending": "Windows"
 			}
 		}
@@ -157,24 +173,45 @@
 	],
 	"file_history":
 	[
-		"/D/Projects/flashforum/client/components/auth/auth.service.js",
-		"/D/Projects/flashforum/client/app/account/account.js",
-		"/D/Projects/flashforum/server/api/user/index.js",
-		"/D/Projects/flashforum/server/api/user/user.controller.js",
-		"/D/Projects/flashforum/client/app/account/settings/settings.controller.js",
+		"/D/Projects/flashforum/client/app/thread/thread.jade",
+		"/D/Projects/flashforum/client/app/main/main.jade",
 		"/D/Projects/flashforum/client/app/account/settings/settings.jade",
+		"/D/Projects/flashforum/client/app/account/settings/settings.controller.js",
+		"/D/Projects/flashforum/client/components/auth/auth.service.js",
+		"/D/Projects/flashforum/client/app/thread/thread.js",
+		"/D/Projects/flashforum/server/api/user/user.controller.js",
+		"/D/Projects/flashforum/client/app/admin/admin.less",
+		"/D/Projects/flashforum/client/components/modal/modal.less",
+		"/D/Projects/flashforum/client/app/thread/thread.less",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/code.less",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/grid.less",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/navs.less",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/type.less",
+		"/D/Projects/flashforum/client/bower_components/font-awesome/less/core.less",
+		"/D/Projects/flashforum/.bowerrc",
+		"/D/Projects/flashforum/client/app/app.less",
+		"/D/Projects/flashforum/npm-debug.log",
+		"/D/Projects/flashforum/client/app/main/main.less",
+		"/D/Projects/flashforum/client/app/main/main.controller.js",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/mixins.less",
+		"/D/Projects/flashforum/client/components/navbar/navbar.controller.js",
+		"/D/Projects/flashforum/server/auth/auth.service.js",
+		"/D/Projects/flashforum/server/api/user/index.js",
+		"/D/Projects/flashforum/client/bower_components/jquery/src/css/var/isHidden.js",
+		"/D/Projects/flashforum/client/app/thread/thread.controller.js",
+		"/D/Projects/flashforum/server/api/thread/thread.controller.js",
+		"/D/Projects/flashforum/client/components/navbar/navbar.jade",
+		"/D/Projects/flashforum/client/app/thread/thread.controller.spec.js",
+		"/D/Projects/flashforum/server/api/thread/thread.socket.js",
+		"/D/Projects/flashforum/server/api/thread/thread.spec.js",
+		"/D/Projects/flashforum/client/bower_components/bootstrap/less/navbar.less",
+		"/D/Projects/flashforum/client/app/account/account.js",
 		"/D/Projects/flashforum/server/api/thing/thing.controller.js",
 		"/D/Projects/flashforum/client/bower_components/bootstrap/test-infra/uncached-npm-install.sh",
 		"/D/Projects/flashforum/client/app/admin/admin.controller.js",
-		"/D/Projects/flashforum/client/app/admin/admin.less",
 		"/D/Projects/flashforum/client/app/admin/admin.js",
 		"/D/Projects/flashforum/client/app/admin/admin.jade",
-		"/D/Projects/flashforum/server/auth/auth.service.js",
 		"/D/Projects/flashforum/client/components/socket/socket.service.js",
-		"/D/Projects/flashforum/client/app/thread/thread.controller.js",
-		"/D/Projects/flashforum/server/api/thread/thread.controller.js",
-		"/D/Projects/flashforum/client/app/thread/thread.jade",
-		"/D/Projects/flashforum/client/app/thread/thread.js",
 		"/D/Projects/flashforum/server/api/user/user.model.js",
 		"/D/Projects/flashforum/server/api/post/index.js",
 		"/D/Projects/flashforum/server/auth/index.js",
@@ -191,26 +228,20 @@
 		"/D/Projects/flashforum/client/bower_components/angular-socket-io/socket.spec.js",
 		"/D/Projects/flashforum/client/components/socket/socket.mock.js",
 		"/D/Projects/flashforum/server/app.js",
-		"/D/Projects/flashforum/client/app/main/main.controller.js",
 		"/D/Projects/flashforum/client/index.html",
 		"/D/Projects/flashforum/server/api/user/user.model.spec.js",
 		"/D/Projects/flashforum/client/components/auth/user.service.js",
 		"/D/Projects/flashforum/client/bower_components/angular-bootstrap/ui-bootstrap.js",
 		"/D/Projects/flashforum/server/config/seed.js",
 		"/D/Projects/flashforum/client/app/account/signup/signup.controller.js",
-		"/D/Projects/flashforum/client/components/navbar/navbar.controller.js",
 		"/D/Projects/flashforum/client/bower_components/angular-ui-router/LICENSE",
 		"/D/Projects/flashforum/server/config/local.env.js",
 		"/D/Projects/flashforum/client/app/app.js",
 		"/D/Projects/flashforum/package.json",
-		"/D/Projects/flashforum/client/app/main/main.jade",
-		"/D/Projects/flashforum/client/app/main/main.less",
 		"/D/Projects/flashforum/client/app/main/main.js",
-		"/D/Projects/flashforum/client/app/thread/thread.less",
 		"/D/Projects/flashforum/server/api/thread/thread.model.js",
 		"/D/Projects/flashforum/server/api/thing/thing.model.js",
 		"/D/Projects/flashforum/README.md",
-		"/D/Projects/flashforum/client/bower_components/bootstrap/less/mixins.less",
 		"/D/Projects/flashforum/client/bower_components/angular/angular.min.js",
 		"/D/Projects/flashforum/client/bower_components/bootstrap/grunt/bs-lessdoc-parser.js",
 		"/D/Projects/flashforum/server/views/404.jade",
@@ -231,14 +262,11 @@
 		"/D/Projects/flashforum/flashforum.sublime-project",
 		"/D/Projects/flashforum/client/app/account/signup/signup.jade",
 		"/D/Projects/flashforum/e2e/main/main.po.js",
-		"/D/Projects/flashforum/server/api/thread/thread.socket.js",
 		"/D/Projects/flashforum/.tmp/app/main/main.html",
 		"/D/Projects/flashforum/client/app/account/login/login.controller.js",
 		"/D/Projects/flashforum/client/bower_components/bootstrap/less/theme.less",
 		"/D/Projects/flashforum/server/config/environment/test.js",
-		"/D/Projects/flashforum/client/components/navbar/navbar.jade",
 		"/D/Projects/flashforum/.tmp/components/navbar/navbar.html",
-		"/D/Projects/flashforum/npm-debug.log",
 		"/D/Projects/flashforum/server/config/environment/production.js",
 		"/D/Projects/flashforum/.gitignore",
 		"/D/Projects/flashforum/x",
@@ -272,19 +300,7 @@
 		"/D/Projects/modern-webapp/node_modules/grunt-contrib-clean/docs/clean-options.md",
 		"/D/Projects/modern-webapp/node_modules/grunt-autoprefixer/CHANGELOG",
 		"/D/Projects/modern-webapp/app/typescript/colorPicker.ts",
-		"/D/Projects/modern-webapp/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEmptyAttrs.js",
-		"/D/Projects/modern-webapp/README.md",
-		"/D/Projects/modern-webapp/app/scripts/colorPicker.js",
-		"/D/Projects/modern-webapp/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg",
-		"/D/Projects/modern-webapp/.editorconfig",
-		"/D/Projects/modern-webapp/node_modules/grunt-contrib-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/D/Projects/modern-webapp/modern-webapp.sublime-project",
-		"/D/Projects/modern-webapp/app/test.html",
-		"/D/Projects/modern-webapp/app/less.custom.js",
-		"/D/Projects/modern-webapp/package.json",
-		"/D/Projects/modern-webapp/node_modules/grunt-autoprefixer/node_modules/autoprefixer/node_modules/caniuse-db/features-json/png-alpha.json",
-		"/D/Projects/modern-webapp/npm-debug.log",
-		"/D/Projects/modern-webapp/node_modules/grunt-contrib-less/tasks/less.js"
+		"/D/Projects/modern-webapp/node_modules/grunt-svgmin/node_modules/svgo/plugins/removeEmptyAttrs.js"
 	],
 	"find":
 	{
@@ -303,6 +319,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getCurrentUser",
+			" ",
+			"currentUserOr",
 			"/settings",
 			"\"settings\"",
 			"patch",
@@ -396,11 +415,12 @@
 			"input[type=range]"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"\",\"",
 			"track",
 			"thumb-border-color",
@@ -423,7 +443,7 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
@@ -433,24 +453,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/app/account/settings/settings.jade",
+					"file": "server/api/user/user.model.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1648,
+						"buffer_size": 3101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								644,
-								644
+								409,
+								409
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -459,6 +479,64 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/app/main/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/app/app.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -511,6 +589,62 @@
 		"selected_items":
 		[
 			[
+				"settin",
+				"client\\app\\account\\settings\\settings.jade"
+			],
+			[
+				"thread.j",
+				"client\\app\\thread\\thread.jade"
+			],
+			[
+				"userm",
+				"server\\api\\user\\user.model.js"
+			],
+			[
+				"auth",
+				"client\\components\\auth\\auth.service.js"
+			],
+			[
+				".less",
+				"client\\app\\main\\main.less"
+			],
+			[
+				"main.le",
+				"client\\app\\main\\main.less"
+			],
+			[
+				"main.",
+				"client\\app\\main\\main.jade"
+			],
+			[
+				"settings.",
+				"client\\app\\account\\settings\\settings.controller.js"
+			],
+			[
+				"thread.",
+				"client\\app\\thread\\thread.jade"
+			],
+			[
+				"threadc",
+				"server\\api\\thread\\thread.controller.js"
+			],
+			[
+				"main",
+				"client\\app\\main\\main.jade"
+			],
+			[
+				"navbar",
+				"client\\components\\navbar\\navbar.controller.js"
+			],
+			[
+				"navb",
+				"client\\components\\navbar\\navbar.jade"
+			],
+			[
+				"settingsco",
+				"client\\app\\account\\settings\\settings.controller.js"
+			],
+			[
 				"setting",
 				"client\\app\\account\\settings\\settings.jade"
 			],
@@ -531,10 +665,6 @@
 				"client\\components\\auth\\auth.service.js"
 			],
 			[
-				"auth",
-				"server\\auth\\auth.service.js"
-			],
-			[
 				"index.js",
 				"server\\api\\user\\index.js"
 			],
@@ -545,10 +675,6 @@
 			[
 				"sett",
 				"client\\app\\account\\settings\\settings.jade"
-			],
-			[
-				"settin",
-				"client\\app\\account\\settings\\settings.controller.js"
 			],
 			[
 				"settings.j",
@@ -591,10 +717,6 @@
 				"client\\app\\main\\main.less"
 			],
 			[
-				"main",
-				"client\\app\\main\\main.jade"
-			],
-			[
 				"jade",
 				"client\\app\\admin\\admin.jade"
 			],
@@ -615,10 +737,6 @@
 				"client\\bower_components\\angular-socket-io\\socket.js"
 			],
 			[
-				"main.",
-				"client\\app\\main\\main.jade"
-			],
-			[
 				"packa",
 				"package.json"
 			],
@@ -631,16 +749,8 @@
 				"bower.json"
 			],
 			[
-				"threadc",
-				"client\\app\\thread\\thread.controller.js"
-			],
-			[
 				"mc",
 				"client\\app\\main\\main.controller.js"
-			],
-			[
-				"thread.j",
-				"client\\app\\thread\\thread.jade"
 			],
 			[
 				"maincon",
@@ -671,10 +781,6 @@
 				"server\\config\\environment\\production.js"
 			],
 			[
-				"main.le",
-				"app\\less\\main.less"
-			],
-			[
 				"inde",
 				"app\\index.html"
 			],
@@ -693,10 +799,6 @@
 			[
 				"ind",
 				"app\\index.html"
-			],
-			[
-				".less",
-				"app\\less\\range.less"
 			]
 		],
 		"width": 0.0

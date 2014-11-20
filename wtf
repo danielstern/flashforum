@@ -1,0 +1,101 @@
+2014-11-19T02:46:43.057312+00:00 app[web.1]: [90mDELETE /api/threads/546b61aa809e710b00030191 [32m204 [90m11ms[0m
+2014-11-19T02:46:43.714397+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=8c09e72c-2fef-45f3-8c14-39949b50805b fwd="207.244.78.5" dyno=web.1 connect=1ms service=13ms status=304 bytes=238
+2014-11-19T02:46:43.708204+00:00 heroku[router]: at=info method=GET path="/api/threads" host=flashforum.herokuapp.com request_id=c58ef18a-c59f-44f7-b63b-d921424abec1 fwd="207.244.78.5" dyno=web.1 connect=2ms service=12ms status=200 bytes=662
+2014-11-19T02:46:43.670172+00:00 heroku[router]: at=info method=GET path="/api/posts/thread/http://bryanlewissaunders.org/drugs/" host=flashforum.herokuapp.com request_id=50bbc165-1412-4475-bf65-30f9411f938a fwd="207.244.78.5" dyno=web.1 connect=1ms service=7ms status=404 bytes=1380
+2014-11-19T02:46:43.667295+00:00 app[web.1]: [90mGET /api/posts/thread/http://bryanlewissaunders.org/drugs/ [33m404 [90m4ms[0m
+2014-11-19T02:46:43.696728+00:00 app[web.1]: [90mGET /api/threads/shortname/http://bryanlewissaunders.org/drugs/ [33m404 [90m5ms[0m
+2014-11-19T02:46:43.695219+00:00 app[web.1]: [90mGET /api/threads [32m200 [90m5ms - 468b[0m
+2014-11-19T02:46:43.706015+00:00 heroku[router]: at=info method=GET path="/api/threads/shortname/http://bryanlewissaunders.org/drugs/" host=flashforum.herokuapp.com request_id=09ca5768-d08f-4560-a2d0-c5e7b3db13bc fwd="207.244.78.5" dyno=web.1 connect=3ms service=15ms status=404 bytes=1380
+2014-11-19T02:46:45.037570+00:00 heroku[router]: at=info method=GET path="/api/posts/thread/http://bryanlewissaunders.org/drugs/" host=flashforum.herokuapp.com request_id=2208b87a-66e3-44d4-885b-6364c7733e2c fwd="207.244.78.5" dyno=web.1 connect=4ms service=9ms status=404 bytes=1380
+2014-11-19T02:46:45.054608+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=e02a74f5-9394-4970-8b62-beb0c5e67d4e fwd="207.244.78.5" dyno=web.1 connect=1ms service=4ms status=304 bytes=238
+2014-11-19T02:46:45.026913+00:00 app[web.1]: [90mGET /api/posts/thread/http://bryanlewissaunders.org/drugs/ [33m404 [90m3ms[0m
+2014-11-19T02:46:45.046364+00:00 app[web.1]: [90mGET /api/threads [36m304 [90m3ms[0m
+2014-11-19T02:46:45.034750+00:00 app[web.1]: [90mGET /api/threads/shortname/http://bryanlewissaunders.org/drugs/ [33m404 [90m2ms[0m
+2014-11-19T02:46:45.038374+00:00 heroku[router]: at=info method=GET path="/api/threads/shortname/http://bryanlewissaunders.org/drugs/" host=flashforum.herokuapp.com request_id=27242842-eba4-476c-a476-e9c97409622e fwd="207.244.78.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=1380
+2014-11-19T02:46:45.056208+00:00 heroku[router]: at=info method=GET path="/api/threads" host=flashforum.herokuapp.com request_id=c38e5335-f9f2-4ae7-812a-51c4864c6e38 fwd="207.244.78.5" dyno=web.1 connect=1ms service=6ms status=304 bytes=128
+2014-11-19T02:46:45.535914+00:00 app[web.1]: [90mDELETE /api/threads/546b6312809e710b00030193 [32m204 [90m5ms[0m
+2014-11-19T02:46:45.545510+00:00 heroku[router]: at=info method=DELETE path="/api/threads/546b6312809e710b00030193" host=flashforum.herokuapp.com request_id=a3c8f4b5-bfde-486c-ad78-a4a5e2de0f53 fwd="207.244.78.5" dyno=web.1 connect=5ms service=17ms status=204 bytes=106
+2014-11-19T02:46:45.945158+00:00 heroku[router]: at=info method=DELETE path="/api/threads/546bf28ff9c1680b00d0f9a5" host=flashforum.herokuapp.com request_id=7bbc1690-b6c6-46fd-8c37-66f681de10cf fwd="207.244.78.5" dyno=web.1 connect=4ms service=12ms status=204 bytes=106
+2014-11-19T02:46:45.937900+00:00 app[web.1]: [90mDELETE /api/threads/546bf28ff9c1680b00d0f9a5 [32m204 [90m6ms[0m
+2014-11-19T02:46:46.301533+00:00 heroku[router]: at=info method=DELETE path="/api/threads/546c0133f9c1680b00d0f9aa" host=flashforum.herokuapp.com request_id=dd82560f-5b61-440b-bf5a-5324b26f37dc fwd="207.244.78.5" dyno=web.1 connect=3ms service=10ms status=204 bytes=106
+2014-11-19T02:46:46.298057+00:00 app[web.1]: [90mDELETE /api/threads/546c0133f9c1680b00d0f9aa [32m204 [90m5ms[0m
+2014-11-19T02:46:53.968172+00:00 heroku[router]: at=info method=POST path="/api/users" host=flashforum.herokuapp.com request_id=8e5ff992-9bd9-49a9-86ad-3dfd1374ff9e fwd="207.244.78.5" dyno=web.1 connect=2ms service=84ms status=200 bytes=366
+2014-11-19T02:46:53.980798+00:00 heroku[router]: at=info method=GET path="/api/threads/shortname/awesomest-thread" host=flashforum.herokuapp.com request_id=dfe58550-470d-46c1-8845-9a259a65251c fwd="207.244.78.5" dyno=web.1 connect=5ms service=63ms status=200 bytes=434
+2014-11-19T02:46:53.964332+00:00 heroku[router]: at=info method=POST path="/api/threads" host=flashforum.herokuapp.com request_id=6256a883-cbba-405e-859b-76f89a3f1517 fwd="207.244.78.5" dyno=web.1 connect=1ms service=72ms status=201 bytes=418
+2014-11-19T02:46:53.959240+00:00 app[web.1]: [90mPOST /api/threads [32m201 [90m10ms - 239b[0m
+2014-11-19T02:46:53.965241+00:00 app[web.1]: [90mPOST /api/users [32m200 [90m65ms - 192b[0m
+2014-11-19T02:46:53.969508+00:00 app[web.1]: [90mGET /api/posts/thread/awesomest-thread [32m200 [90m5ms - 2b[0m
+2014-11-19T02:46:53.969004+00:00 app[web.1]: [90mGET /api/threads/shortname/awesomest-thread [32m200 [90m6ms - 241b[0m
+2014-11-19T02:46:53.963713+00:00 app[web.1]: Find by id... { id: 'awesomest-thread' }
+2014-11-19T02:46:53.979059+00:00 heroku[router]: at=info method=GET path="/api/posts/thread/awesomest-thread" host=flashforum.herokuapp.com request_id=6b1e53ff-e3aa-48e6-b3f4-a4b9859ee949 fwd="207.244.78.5" dyno=web.1 connect=8ms service=62ms status=200 bytes=193
+2014-11-19T02:46:54.426419+00:00 heroku[router]: at=info method=PATCH path="/api/threads/546c049d66a7770b008a74f4" host=flashforum.herokuapp.com request_id=73a2b600-b4be-4024-93bb-9eb132c154f5 fwd="207.244.78.5" dyno=web.1 connect=1ms service=10ms status=200 bytes=413
+2014-11-19T02:46:54.419037+00:00 heroku[router]: at=info method=GET path="/api/users/me" host=flashforum.herokuapp.com request_id=9f4a2f64-a483-4c8e-aa06-94590fd15dcd fwd="207.244.78.5" dyno=web.1 connect=2ms service=17ms status=200 bytes=380
+2014-11-19T02:46:54.385004+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=a461f074-ee11-4412-b8f6-6ed9d812924c fwd="207.244.78.5" dyno=web.1 connect=1ms service=10ms status=304 bytes=238
+2014-11-19T02:46:54.408157+00:00 app[web.1]: [90mGET /api/users/me [32m200 [90m6ms - 186b[0m
+2014-11-19T02:46:54.416584+00:00 app[web.1]: [90mPATCH /api/threads/546c049d66a7770b008a74f4 [32m200 [90m4ms - 239b[0m
+2014-11-19T02:46:56.232449+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=76585d29-edc1-4b6a-9239-ae3c2fe2949c fwd="207.244.78.5" dyno=web.1 connect=4ms service=7ms status=304 bytes=238
+2014-11-19T02:46:56.217932+00:00 heroku[router]: at=info method=GET path="/api/threads" host=flashforum.herokuapp.com request_id=5038c637-edf1-4c9e-bcb1-b44e1c5a6de1 fwd="207.244.78.5" dyno=web.1 connect=2ms service=11ms status=200 bytes=434
+2014-11-19T02:46:56.208536+00:00 app[web.1]: [90mGET /api/threads [32m200 [90m6ms - 241b[0m
+2014-11-19T02:46:59.364857+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=31b9d925-c91c-46a6-99b2-99a3ef87a418 fwd="207.244.78.5" dyno=web.1 connect=2ms service=7ms status=304 bytes=238
+2014-11-19T02:47:04.976417+00:00 heroku[router]: at=info method=GET path="/settings" host=flashforum.herokuapp.com request_id=6a3e71f8-1389-451f-aeac-086c1f15b436 fwd="207.244.78.5" dyno=web.1 connect=2ms service=9ms status=200 bytes=1436
+2014-11-19T02:47:04.971882+00:00 heroku[router]: at=info method=PATCH path="/api/users/" host=flashforum.herokuapp.com request_id=a05ad73b-fd00-4d71-b6e4-a7f10a2b8796 fwd="207.244.78.5" dyno=web.1 connect=2ms service=15ms status=200 bytes=183
+2014-11-19T02:47:04.960234+00:00 app[web.1]: [90mPATCH /api/users/ [32m200 [90m10ms - 2b[0m
+2014-11-19T02:47:05.138985+00:00 app[web.1]: [90mGET /app/account/login/login.controller.js [33m404 [90m2ms[0m
+2014-11-19T02:47:05.021239+00:00 app[web.1]: [undefined:undefined] DISCONNECTED
+2014-11-19T02:47:05.170668+00:00 app[web.1]: [90mGET /app/account/signup/signup.controller.js [33m404 [90m4ms[0m
+2014-11-19T02:47:05.093684+00:00 heroku[router]: at=info method=GET path="/app/3d34757e.vendor.js" host=flashforum.herokuapp.com request_id=3bb9f0af-a702-4f30-ad46-bf81c3346b3c fwd="207.244.78.5" dyno=web.1 connect=1ms service=9ms status=304 bytes=240
+2014-11-19T02:47:04.966711+00:00 app[web.1]: [90mGET /settings [32m200 [90m4ms[0m
+2014-11-19T02:47:05.136571+00:00 app[web.1]: [90mGET /app/account/account.js [33m404 [90m5ms[0m
+2014-11-19T02:47:05.155228+00:00 app[web.1]: [90mGET /app/account/settings/settings.controller.js [33m404 [90m3ms[0m
+2014-11-19T02:47:05.179649+00:00 app[web.1]: [90mGET /app/admin/admin.controller.js [33m404 [90m2ms[0m
+2014-11-19T02:47:05.147347+00:00 heroku[router]: at=info method=GET path="/app/account/login/login.controller.js" host=flashforum.herokuapp.com request_id=2c85bb3b-d5a6-40ad-935d-13e7780d2691 fwd="207.244.78.5" dyno=web.1 connect=1ms service=6ms status=404 bytes=1380
+2014-11-19T02:47:05.100847+00:00 heroku[router]: at=info method=GET path="/app/abb16208.app.css" host=flashforum.herokuapp.com request_id=7fbfe549-829a-499b-984c-dcdf1f5d83fa fwd="207.244.78.5" dyno=web.1 connect=2ms service=5ms status=304 bytes=240
+2014-11-19T02:47:05.182600+00:00 heroku[router]: at=info method=GET path="/app/account/signup/signup.controller.js" host=flashforum.herokuapp.com request_id=f7cea96f-50b2-4c6f-a84b-3aaa31948115 fwd="207.244.78.5" dyno=web.1 connect=7ms service=10ms status=404 bytes=1380
+2014-11-19T02:47:05.025311+00:00 heroku[router]: at=info method=GET path="/socket.io-client/?EIO=3&transport=websocket&sid=uOaPF_u47YlB9xL_AAAB" host=flashforum.herokuapp.com request_id=7c3bf95e-225a-4366-bde1-989ed79d4575 fwd="207.244.78.5" dyno=web.1 connect=3ms service=28909ms status=101 bytes=129
+2014-11-19T02:47:05.124249+00:00 heroku[router]: at=info method=GET path="/app/5d3d5805.app.js" host=flashforum.herokuapp.com request_id=60fad593-f77a-4409-bed9-27d6902b47dd fwd="207.244.78.5" dyno=web.1 connect=1ms service=4ms status=304 bytes=239
+2014-11-19T02:47:05.182459+00:00 heroku[router]: at=info method=GET path="/app/admin/admin.controller.js" host=flashforum.herokuapp.com request_id=034431d4-06be-4ec1-bc3f-748005fe10ea fwd="207.244.78.5" dyno=web.1 connect=1ms service=5ms status=404 bytes=1380
+2014-11-19T02:47:05.139764+00:00 heroku[router]: at=info method=GET path="/app/account/account.js" host=flashforum.herokuapp.com request_id=c3aa770c-48a0-41ea-bed7-9e9ac0b43330 fwd="207.244.78.5" dyno=web.1 connect=2ms service=10ms status=404 bytes=1380
+2014-11-19T02:47:05.296559+00:00 heroku[router]: at=info method=GET path="/app/main/main.controller.js" host=flashforum.herokuapp.com request_id=e5337583-18b9-4042-ba30-f000894e30c8 fwd="207.244.78.5" dyno=web.1 connect=3ms service=10ms status=404 bytes=1380
+2014-11-19T02:47:05.166945+00:00 heroku[router]: at=info method=GET path="/app/account/settings/settings.controller.js" host=flashforum.herokuapp.com request_id=82595ef5-0cf8-4f45-86be-72d0edc455d7 fwd="207.244.78.5" dyno=web.1 connect=3ms service=8ms status=404 bytes=1380
+2014-11-19T02:47:05.244480+00:00 app[web.1]: [90mGET /app/admin/admin.js [33m404 [90m4ms[0m
+2014-11-19T02:47:05.406432+00:00 app[web.1]: [90mGET /app/thread/thread.js [33m404 [90m10ms[0m
+2014-11-19T02:47:05.434632+00:00 app[web.1]: [90mGET /components/auth/user.service.js [33m404 [90m3ms[0m
+2014-11-19T02:47:05.282496+00:00 app[web.1]: [90mGET /app/main/main.controller.js [33m404 [90m3ms[0m
+2014-11-19T02:47:05.255004+00:00 heroku[router]: at=info method=GET path="/app/admin/admin.js" host=flashforum.herokuapp.com request_id=3aed941a-2826-44de-924a-b306fe8bbd97 fwd="207.244.78.5" dyno=web.1 connect=2ms service=8ms status=404 bytes=1380
+2014-11-19T02:47:05.422282+00:00 heroku[router]: at=info method=GET path="/components/auth/auth.service.js" host=flashforum.herokuapp.com request_id=b4eb0a81-8b2c-4424-8b88-da0180925688 fwd="207.244.78.5" dyno=web.1 connect=1ms service=16ms status=404 bytes=1380
+2014-11-19T02:47:05.281037+00:00 heroku[router]: at=info method=GET path="/app/main/main.js" host=flashforum.herokuapp.com request_id=cfe08751-009d-4072-86cf-7a893ff2cd84 fwd="207.244.78.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=1380
+2014-11-19T02:47:05.419385+00:00 heroku[router]: at=info method=GET path="/app/thread/thread.js" host=flashforum.herokuapp.com request_id=1ced49b7-fc08-457c-b738-58fa48f51095 fwd="207.244.78.5" dyno=web.1 connect=1ms service=18ms status=404 bytes=1380
+2014-11-19T02:47:05.347467+00:00 heroku[router]: at=info method=GET path="/app/thread/thread.controller.js" host=flashforum.herokuapp.com request_id=c667f6a7-63ab-4038-942c-75f6e05aadab fwd="207.244.78.5" dyno=web.1 connect=2ms service=9ms status=404 bytes=1380
+2014-11-19T02:47:05.276227+00:00 app[web.1]: [90mGET /app/main/main.js [33m404 [90m5ms[0m
+2014-11-19T02:47:05.337412+00:00 app[web.1]: [90mGET /app/thread/thread.controller.js [33m404 [90m5ms[0m
+2014-11-19T02:47:05.413855+00:00 app[web.1]: [90mGET /components/auth/auth.service.js [33m404 [90m8ms[0m
+2014-11-19T02:47:05.495020+00:00 app[web.1]: [90mGET /components/modal/modal.service.js [33m404 [90m3ms[0m
+2014-11-19T02:47:05.513376+00:00 app[web.1]: [90mGET /components/navbar/navbar.controller.js [33m404 [90m3ms[0m
+2014-11-19T02:47:05.453114+00:00 heroku[router]: at=info method=GET path="/components/auth/user.service.js" host=flashforum.herokuapp.com request_id=824b96c4-384a-4b44-95aa-ee55da41e8cd fwd="207.244.78.5" dyno=web.1 connect=1ms service=8ms status=404 bytes=1380
+2014-11-19T02:47:05.530607+00:00 heroku[router]: at=info method=GET path="/components/navbar/navbar.controller.js" host=flashforum.herokuapp.com request_id=9e498012-f900-454a-86c1-0b6a746ab569 fwd="207.244.78.5" dyno=web.1 connect=1ms service=7ms status=404 bytes=1380
+2014-11-19T02:47:05.503090+00:00 heroku[router]: at=info method=GET path="/components/modal/modal.service.js" host=flashforum.herokuapp.com request_id=31d756af-5b33-41e5-833a-6eb79b49f10f fwd="207.244.78.5" dyno=web.1 connect=2ms service=7ms status=404 bytes=1380
+2014-11-19T02:47:05.505660+00:00 app[web.1]: [90mGET /components/mongoose-error/mongoose-error.directive.js [33m404 [90m6ms[0m
+2014-11-19T02:47:05.526300+00:00 app[web.1]: [90mGET /components/socket/socket.service.js [33m404 [90m4ms[0m
+2014-11-19T02:47:05.639710+00:00 app[web.1]: [90mGET /api/users/me [32m200 [90m6ms - 174b[0m
+2014-11-19T02:47:05.511118+00:00 heroku[router]: at=info method=GET path="/components/mongoose-error/mongoose-error.directive.js" host=flashforum.herokuapp.com request_id=c8a2be5e-cc0f-42dd-a466-02d535fe075f fwd="207.244.78.5" dyno=web.1 connect=1ms service=9ms status=404 bytes=1380
+2014-11-19T02:47:05.530179+00:00 heroku[router]: at=info method=GET path="/components/socket/socket.service.js" host=flashforum.herokuapp.com request_id=4c0a5b8c-a21e-4ba0-86bf-d353d9e00e7a fwd="207.244.78.5" dyno=web.1 connect=1ms service=7ms status=404 bytes=1380
+2014-11-19T02:47:05.693996+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=aa4a4ead-d1d8-4e0b-bfbf-417271057de0 fwd="207.244.78.5" dyno=web.1 connect=1ms service=5ms status=304 bytes=238
+2014-11-19T02:47:05.643061+00:00 heroku[router]: at=info method=GET path="/api/users/me" host=flashforum.herokuapp.com request_id=49bcbb7c-cff7-4e70-afde-b47dfb18a94a fwd="207.244.78.5" dyno=web.1 connect=6ms service=8ms status=200 bytes=369
+2014-11-19T02:47:05.724404+00:00 heroku[router]: at=info method=GET path="/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" host=flashforum.herokuapp.com request_id=214b4371-08f6-4d44-a63e-16b74ff3ace3 fwd="207.244.78.5" dyno=web.1 connect=0ms service=15ms status=304 bytes=239
+2014-11-19T02:47:07.187013+00:00 heroku[router]: at=info method=GET path="/api/threads" host=flashforum.herokuapp.com request_id=bf68e4e0-0b48-410a-9a83-0d2568133da5 fwd="207.244.78.5" dyno=web.1 connect=1ms service=9ms status=304 bytes=127
+2014-11-19T02:47:07.169807+00:00 heroku[router]: at=info method=GET path="/socket.io-client/?EIO=3&transport=polling&t=1416365220594-0" host=flashforum.herokuapp.com request_id=2016944e-d089-4fb3-bfd7-4959a202ccb8 fwd="207.244.78.5" dyno=web.1 connect=3ms service=3ms status=200 bytes=306
+2014-11-19T02:47:07.186608+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=flashforum.herokuapp.com request_id=fe4efe91-d325-4cd4-a71c-b3f64792dc7d fwd="207.244.78.5" dyno=web.1 connect=2ms service=6ms status=304 bytes=238
+2014-11-19T02:47:07.248735+00:00 heroku[router]: at=info method=GET path="/socket.io-client/?EIO=3&transport=polling&t=1416365220673-1&sid=ZuWp_VhjhQwTP3GRAAAC" host=flashforum.herokuapp.com request_id=991563f1-41a7-47d4-ba25-f7f9e629fe29 fwd="207.244.78.5" dyno=web.1 connect=2ms service=5ms status=200 bytes=208
+2014-11-19T02:47:07.166423+00:00 app[web.1]: [undefined:undefined] CONNECTED
+2014-11-19T02:47:07.178443+00:00 app[web.1]: [90mGET /api/threads [36m304 [90m4ms[0m
+2014-11-19T02:47:07.542218+00:00 heroku[router]: at=info method=GET path="/socket.io-client/?EIO=3&transport=polling&t=1416365220748-2&sid=ZuWp_VhjhQwTP3GRAAAC" host=flashforum.herokuapp.com request_id=b9ef8627-6c70-4805-bcba-a27471b6454a fwd="207.244.78.5" dyno=web.1 connect=1ms service=227ms status=200 bytes=207
+2014-11-19T02:47:17.995377+00:00 heroku[router]: at=info method=GET path="/" host=flashforum.herokuapp.com request_id=eaf0b2fe-a91a-4f69-866c-fa42bd969610 fwd="207.244.78.5" dyno=web.1 connect=2ms service=7ms status=304 bytes=238
+2014-11-19T02:47:20.202452+00:00 heroku[router]: at=info method=GET path="/api/posts/thread/awesomest-thread" host=flashforum.herokuapp.com request_id=52b1f819-3752-41e4-b2e6-ce8ef8bc1630 fwd="207.244.78.5" dyno=web.1 connect=2ms service=11ms status=304 bytes=127
+2014-11-19T02:47:20.209423+00:00 heroku[router]: at=info method=GET path="/api/threads/shortname/awesomest-thread" host=flashforum.herokuapp.com request_id=09bd201d-ba1f-4b97-b82d-d1e322cd0d8d fwd="207.244.78.5" dyno=web.1 connect=2ms service=7ms status=304 bytes=127
+2014-11-19T02:47:20.198217+00:00 app[web.1]: Find by id... { id: 'awesomest-thread' }
+2014-11-19T02:47:20.201404+00:00 app[web.1]: [90mGET /api/threads/shortname/awesomest-thread [36m304 [90m4ms[0m
+2014-11-19T02:47:20.201022+00:00 app[web.1]: [90mGET /api/posts/thread/awesomest-thread [36m304 [90m5ms[0m
+2014-11-19T02:47:21.877909+00:00 heroku[router]: at=info method=GET path="/api/threads" host=flashforum.herokuapp.com request_id=f8ec1c04-3eae-4e93-9606-de771c603d2c fwd="207.244.78.5" dyno=web.1 connect=0ms service=8ms status=304 bytes=127
+2014-11-19T02:47:21.877201+00:00 heroku[router]: at=info method=GET path="/socket.io-client/?EIO=3&transport=websocket&sid=ZuWp_VhjhQwTP3GRAAAC" host=flashforum.herokuapp.com request_id=055eef77-6915-4e95-a5c1-49eca2703298 fwd="207.244.78.5" dyno=web.1 connect=1ms service=14488ms status=101 bytes=129
+2014-11-19T02:47:21.874973+00:00 app[web.1]: [undefined:undefined] DISCONNECTED
+2014-11-19T02:47:21.873656+00:00 app[web.1]: [90mGET /api/threads [36m304 [90m4ms[0m
